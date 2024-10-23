@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Функция для перевода числа в 2СС
 int toBin(int n, int i) {
     int binrev[64];
     int j = 0;
