@@ -1,0 +1,78 @@
+\documentclass[oneside,a4paper,14pt]{extarticle}
+\usepackage[T1,T2A,TU]{fontenc}
+\usepackage[a4paper,letterpaper,top=20mm,bottom=20mm,left=20mm,right=10mm]{geometry}
+\usepackage[russian]{babel}
+\usepackage{textcomp}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{mwe}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage[all]{xy}
+\usepackage[breaklinks]{hyperref}
+\usepackage{titlesec}
+
+\titleformat{\section} % Настройка формата заголовков секций
+{\normalsize\bfseries} % Устанавливает размер шрифта на нормальный и делает его жирным
+{\thesection} % Указывает, что номер секции будет отображаться перед заголовком
+{1em} % Устанавливает расстояние между номером секции и заголовком в 1em
+{} % Дополнительные параметры.
+
+\titleformat{\subsection} % Настройка формата заголовков подсекций
+{\normalsize\bfseries} % Устанавливает размер шрифта на нормальный и делает его жирным
+{\thesubsection} % Указывает, что номер подсекции будет отображаться перед заголовком
+{1em} % Устанавливает расстояние между номером подсекции и заголовком в 1em
+{} % Дополнительные параметры.
+
+\titleformat{\subsubsection} % Настройка формата заголовков подподсекций
+{\normalsize\bfseries} % Устанавливает размер шрифта на нормальный и делает его жирным
+{\thesubsection} % Указывает, что номер подподсекции будет отображаться перед заголовком
+{1em} % Устанавливает расстояние между номером подподсекции и заголовком в 1em
+{} % Дополнительные параметры.
+
+\renewcommand\baselinestretch{1.45}\normalsize %межстр интервал
+\setlength{\parindent}{1.25cm} %длина отступа нового абзаца
+
+\begin{document}
+\newpage
+\thispagestyle{empty}
+\begin{center}
+	МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ\\
+	РОССИЙСКОЙ ФЕДЕРАЦИИ
+	ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ\\
+	ОБРАЗОВАТЕЛЬНОЕ
+	УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ\\
+	«ВЯТСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ»\\
+	Институт математики и информационных систем\\
+	Факультет автоматики и вычислительной техники\\
+	Кафедра электронных вычислительных машин
+\end{center}
+\vspace{20mm}
+
+\begin{center}
+	Отчёт по лабораторной работе №2\\
+	по дисциплине\\
+	<<Программирование>>\\
+\end{center}
+\vspace{40mm}
+\noindent
+  \begin{tabular}{ll}
+    Разработал студент гр. ИВТб-1301-05-00 & \rule[-1mm]{30mm}{0.10mm}\,/Черкасов А. А./\\
+    & \hspace{8mm}\footnotesize(подпись)\\
+     
+    Заместитель кафедры ЭВМ & \rule[-1mm]{30mm}{0.10mm}\,/Долженкова М. Л./\\
+    & \hspace{8mm}\footnotesize(подпись)\\
+  \end{tabular}
+
+\vfill
+\begin{center}
+	Киров\\
+	2024
+\end{center}
+
+\newpage\thispagestyle{plain}
+\end{document}
