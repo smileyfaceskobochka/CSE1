@@ -1,7 +1,6 @@
-Program fourteen;
-
+program fourteen;
 var
-    n, i, j, prev: integer; // кол-во элементов в массиве, счетчики i, j, пред элемент
+    n, i, j, prev: integer;
     arr: array of integer;
     flag, nigg: boolean;
 
@@ -21,7 +20,7 @@ begin
     if arr[0] < 0 then nigg := False;
 
     while (arr[j] >= 0) do begin
-        if arr[j] >= prev then flag := False;
+        if (arr[j] >= prev) then flag := False;
         prev := arr[j];
         j := j + 1
     end;

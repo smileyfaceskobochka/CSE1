@@ -14,8 +14,7 @@
 \usepackage[all]{xy}
 \usepackage[breaklinks]{hyperref}
 \usepackage{titlesec}
-\usepackage{listings}
-\usepackage{xcolor}
+\usepackage{verbatim, fancyvrb}
 
 \titleformat{\section}
 {\normalsize\bfseries} 
@@ -26,23 +25,6 @@
 \titleformat{\subsubsection}
 {\normalsize\bfseries}
 {\thesubsection} {1em}{}
-\definecolor{mygreen}{HTML}{A6E392}
-\definecolor{myback}{HTML}{1e1e2e}
-\definecolor{mykeyw}{HTML}{cba6f7}
-\definecolor{mytext}{HTML}{faa975}
-\lstset{
-    basicstyle=\small\ttfamily,
-    keywordstyle=\color{mykeyw},
-    commentstyle=\color{green},
-    stringstyle=\color{mygreen},
-    numbers=left,
-    numberstyle=\tiny,
-    stepnumber=1,
-    numbersep=10pt,
-    tabsize=2,
-    breaklines=true,
-    language=C
-}
 
 \renewcommand\baselinestretch{1.45}\normalsize
 \setlength{\parindent}{1.25cm}
@@ -160,11 +142,31 @@
 	\caption{Схема алгоритма задания 1.}
 \end{figure}
 \newpage
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{pics/1-listing.png}
-	\caption*{Листинг 1: Решение задания 1 на языке C}
-\end{figure}
+\begin{Verbatim}[fontsize=\small]
+	#include <stdio.h>
+
+	int cntBin(int n){
+		int i = 0; //Счетчик нулей в 2-ой записи числа n
+		
+		do {
+			if (n % 2 == 0){
+				i++;
+			}
+			n /= 2;
+		} while (n > 0);
+		printf("%d", i); //Вывод i
+	}
+	
+	int main(){
+		int n; 
+		scanf("%d", &n); //Ввод числа n
+		if(n < 0){
+			return 1;
+		} //Вывод ошибки
+		cntBin(n);
+		return 0;
+	}
+\end{Verbatim}
 \newpage
 \begin{figure}[h!]
 	\centering

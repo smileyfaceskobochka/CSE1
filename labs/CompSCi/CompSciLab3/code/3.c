@@ -30,7 +30,7 @@ double convertFracToDec(const char *frac, int base) {
   return decValue; // Десятичное значение дробной части
 }
 
-// Функция для преобразования целого числа в заданную систему счисления
+// Преобразования целого числа в заданную систему счисления
 int convertIntToBase(int number, int base, char *result) {
   int index = 0; // Индекс для записи символов в результат
 
@@ -52,6 +52,10 @@ int convertIntToBase(int number, int base, char *result) {
   }
 
   return 0; // Успешное выполнение
+}
+
+double logBase(double base, double val) {
+    return log(val) / log(base);
 }
 
 // Функция для преобразования дробной части в заданную систему счисления
@@ -91,22 +95,21 @@ int main() {
   char *intPart = strtok(numberStr, "."); // Целая часть до .
   char *fracPart = strtok(NULL, ".");     // Дробная часть после .
 
-  // Переводим целую часть в десятичную
+  // Целая часть в десятичную
   int intDec = convertIntToDec(intPart, k);
 
-  // Переводим дробную часть в десятичную
+  // Дробная часть в десятичную
   double fracDec = fracPart ? convertFracToDec(fracPart, k) : 0.0;
 
-  // Переводим целую часть в систему счисления M
+  // Целая часть в систему счисления M
   char intRes[50];
   convertIntToBase(intDec, m, intRes);
 
-  // Переводим дробную часть в систему счисления M
+  // Дробная часть в систему счисления M
   char fracRes[50];
-  int precision = fracPart ? strlen(fracPart) : 0; // Количество знаков дробной части
+  int precision = fracPart ? ceil(strlen(fracPart) * logBase(k, m)) : 0; // Количество знаков дробной части
   convertFracToBase(fracDec, m, fracRes, precision);
 
-  // Выводим результат
   if (precision > 0) {
     printf("%s.%s\n", intRes, fracRes);
   }

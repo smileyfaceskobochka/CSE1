@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  15 OCT 2024 12:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  28 OCT 2024 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -636,73 +636,42 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen269
 \titlewidthlast=\dimen270
 \titlewidthfirst=\dimen271
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count332
-\lst@gtempboxa=\box61
-\lst@token=\toks39
-\lst@length=\count333
-\lst@currlwidth=\dimen272
-\lst@column=\count334
-\lst@pos=\count335
-\lst@lostspace=\dimen273
-\lst@width=\dimen274
-\lst@newlines=\count336
-\lst@lineno=\count337
-\lst@maxwidth=\dimen275
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count338
-\lst@skipnumbers=\count339
-\lst@framebox=\box62
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
-))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 274.
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks39
+\verbatim@line=\toks40
+\verbatim@in@stream=\read4
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count332
+\FV@InFile=\read5
+\FV@TabBox=\box61
+\c@FancyVerbLine=\count333
+\FV@StepNumber=\count334
+\FV@OutFile=\write4
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -738,20 +707,20 @@ LaTeX Font Info:    ... okay on input line 52.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \th on input line 52.
+LaTeX Info: Redefining \th on input line 34.
 (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count340
-\scratchdimen=\dimen276
-\scratchbox=\box63
-\nofMPsegments=\count341
-\nofMParguments=\count342
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count343
-\MPscratchDim=\dimen277
-\MPnumerator=\count344
-\makeMPintoPDFobject=\count345
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count335
+\scratchdimen=\dimen272
+\scratchbox=\box62
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen273
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks42
 ) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -760,46 +729,44 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.57597pt on input line 52.
-Package hyperref Info: Link coloring OFF on input line 52.
+Package xypdf Info: Line width: 0.57597pt on input line 34.
+Package hyperref Info: Link coloring OFF on input line 34.
  (./main.out) (./main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
-\c@lstlisting=\count346
 
 
 [1
 
 {c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 93--98
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
 
  []
 
 
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 124--129
+Underfull \hbox (badness 10000) in paragraph at lines 106--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--144
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
 
  []
 
@@ -809,31 +776,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--144
 <pics/1-flowchart.png, id=23, 1463.4675pt x 1632.0975pt>
 File: pics/1-flowchart.png Graphic file (type png)
 <use pics/1-flowchart.png>
-Package pdftex.def Info: pics/1-flowchart.png  used on input line 159.
+Package pdftex.def Info: pics/1-flowchart.png  used on input line 141.
 (pdftex.def)             Requested size: 423.151pt x 471.90155pt.
 
 
 [4 <./pics/1-flowchart.png>]
-<pics/1-listing.png, id=31, 1088.065pt x 1001.7425pt>
-File: pics/1-listing.png Graphic file (type png)
-<use pics/1-listing.png>
-Package pdftex.def Info: pics/1-listing.png  used on input line 165.
-(pdftex.def)             Requested size: 528.93675pt x 486.99094pt.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 145.
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 
-
-[5 <./pics/1-listing.png>]
-<pics/2-flowchart.png, id=38, 2238.3625pt x 2870.725pt>
+[5]
+<pics/2-flowchart.png, id=36, 2238.3625pt x 2870.725pt>
 File: pics/2-flowchart.png Graphic file (type png)
 <use pics/2-flowchart.png>
-Package pdftex.def Info: pics/2-flowchart.png  used on input line 171.
+Package pdftex.def Info: pics/2-flowchart.png  used on input line 173.
 (pdftex.def)             Requested size: 423.151pt x 542.68379pt.
 
 
 [6 <./pics/2-flowchart.png>]
-<pics/2-listing.png, id=45, 1593.955pt x 1421.31pt>
+<pics/2-listing.png, id=43, 1593.955pt x 1421.31pt>
 File: pics/2-listing.png Graphic file (type png)
 <use pics/2-listing.png>
-Package pdftex.def Info: pics/2-listing.png  used on input line 177.
+Package pdftex.def Info: pics/2-listing.png  used on input line 179.
 (pdftex.def)             Requested size: 528.93675pt x 471.63625pt.
 
 
@@ -848,18 +813,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18982 strings out of 473579
- 298586 string characters out of 5722203
- 1028615 words of memory out of 5000000
- 41582 multiletter control sequences out of 15000+600000
- 564509 words of font info for 59 fonts, out of 8000000 for 9000
+ 17563 strings out of 473579
+ 278849 string characters out of 5722203
+ 818416 words of memory out of 5000000
+ 40179 multiletter control sequences out of 15000+600000
+ 565621 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,6n,107p,3304b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (8 pages, 383551 bytes).
+ 94i,6n,107p,3304b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (8 pages, 355723 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

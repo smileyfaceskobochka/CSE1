@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  18 OCT 2024 03:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  28 OCT 2024 13:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -641,33 +641,57 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen269
 \titlewidthlast=\dimen270
 \titlewidthfirst=\dimen271
-) (./Lab1.aux
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count332
+\lst@gtempboxa=\box61
+\lst@token=\toks39
+\lst@length=\count333
+\lst@currlwidth=\dimen272
+\lst@column=\count334
+\lst@pos=\count335
+\lst@lostspace=\dimen273
+\lst@width=\dimen274
+\lst@newlines=\count336
+\lst@lineno=\count337
+\lst@maxwidth=\dimen275
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count338
+\lst@skipnumbers=\count339
+\lst@framebox=\box62
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (./Lab1.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 8.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `Lab1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -703,20 +727,20 @@ LaTeX Font Info:    ... okay on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \th on input line 40.
+LaTeX Info: Redefining \th on input line 41.
 (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count332
-\scratchdimen=\dimen272
-\scratchbox=\box61
-\nofMPsegments=\count333
-\nofMParguments=\count334
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count335
-\MPscratchDim=\dimen273
-\MPnumerator=\count336
-\makeMPintoPDFobject=\count337
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count340
+\scratchdimen=\dimen276
+\scratchbox=\box63
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen277
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks41
 ) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -725,300 +749,333 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.57597pt on input line 40.
-Package hyperref Info: Link coloring OFF on input line 40.
+Package xypdf Info: Line width: 0.57597pt on input line 41.
+Package hyperref Info: Link coloring OFF on input line 41.
  (./Lab1.out) (./Lab1.out)
 \@outlinefile=\write4
 \openout4 = `Lab1.out'.
 
+\c@lstlisting=\count346
 
 
 [1
 
 {c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
 
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
 
 
 [3]
-Underfull \hbox (badness 1584) in paragraph at lines 138--140
+Underfull \hbox (badness 1584) in paragraph at lines 139--141
 \T2A/cmr/m/n/14.4 Среди про-из-воль-но-го ко-ли-че-ства це-лых чи-сел опре-де-лить ми-ни-маль-ный
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--158
+Underfull \hbox (badness 10000) in paragraph at lines 155--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
 
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 175--179
+Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--183
+Underfull \hbox (badness 10000) in paragraph at lines 181--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--187
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
 
  []
 
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 200--204
+Underfull \hbox (badness 10000) in paragraph at lines 201--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
+Underfull \hbox (badness 10000) in paragraph at lines 206--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--221
+Underfull \hbox (badness 10000) in paragraph at lines 217--222
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
 
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 228--232
+Underfull \hbox (badness 10000) in paragraph at lines 229--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--237
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--253
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
 
 
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--272
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
 
  []
 
 
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 287--289
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--292
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--295
+Underfull \hbox (badness 10000) in paragraph at lines 294--296
 
  []
 
-<img/1-scheme.png, id=56, 2484.28125pt x 3974.85pt>
+
+
+[9] (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 311.
+ (./code/1.pas)
+
+[10{c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+) (./code/2.c) (./code/3.pas
+
+[11])
+
+[12] (./code/4.c) (./code/5.pas) (./code/6.c
+
+[13]
+
+[14]) (./code/7.pas)
+
+[15] (./code/8.c)
+
+[16] (./code/9.pas)
+
+[17] (./code/10.c
+
+[18]) (./code/11.pas) (./code/12.c
+
+[19])
+<img/1-scheme.png, id=349, 2484.28125pt x 3974.85pt>
 File: img/1-scheme.png Graphic file (type png)
 <use img/1-scheme.png>
-Package pdftex.def Info: img/1-scheme.png  used on input line 308.
+Package pdftex.def Info: img/1-scheme.png  used on input line 366.
 (pdftex.def)             Requested size: 383.12636pt x 613.03893pt.
-<img/2-scheme.png, id=58, 2188.175pt x 2519.4125pt>
+<img/2-scheme.png, id=351, 2188.175pt x 2519.4125pt>
 File: img/2-scheme.png Graphic file (type png)
 <use img/2-scheme.png>
-Package pdftex.def Info: img/2-scheme.png  used on input line 313.
+Package pdftex.def Info: img/2-scheme.png  used on input line 371.
 (pdftex.def)             Requested size: 343.80565pt x 395.8485pt.
-<img/3-scheme.png, id=59, 4055.15pt x 4702.56876pt>
+<img/3-scheme.png, id=352, 4055.15pt x 4702.56876pt>
 File: img/3-scheme.png Graphic file (type png)
 <use img/3-scheme.png>
-Package pdftex.def Info: img/3-scheme.png  used on input line 318.
+Package pdftex.def Info: img/3-scheme.png  used on input line 376.
 (pdftex.def)             Requested size: 528.93675pt x 613.36456pt.
-<img/4-scheme.png, id=60, 2368.85pt x 2920.9125pt>
+<img/4-scheme.png, id=353, 2368.85pt x 2920.9125pt>
 File: img/4-scheme.png Graphic file (type png)
 <use img/4-scheme.png>
-Package pdftex.def Info: img/4-scheme.png  used on input line 323.
+Package pdftex.def Info: img/4-scheme.png  used on input line 381.
 (pdftex.def)             Requested size: 396.70256pt x 489.15002pt.
-<img/5-scheme.png, id=61, 2067.725pt x 1515.6625pt>
+<img/5-scheme.png, id=354, 2067.725pt x 1515.6625pt>
 File: img/5-scheme.png Graphic file (type png)
 <use img/5-scheme.png>
-Package pdftex.def Info: img/5-scheme.png  used on input line 328.
+Package pdftex.def Info: img/5-scheme.png  used on input line 386.
 (pdftex.def)             Requested size: 396.70256pt x 290.77725pt.
-<img/6-scheme-p1.png, id=62, 3322.4125pt x 4015.0pt>
+<img/6-scheme-p1.png, id=355, 3322.4125pt x 4015.0pt>
 File: img/6-scheme-p1.png Graphic file (type png)
 <use img/6-scheme-p1.png>
-Package pdftex.def Info: img/6-scheme-p1.png  used on input line 333.
+Package pdftex.def Info: img/6-scheme-p1.png  used on input line 391.
 (pdftex.def)             Requested size: 507.26285pt x 613.03893pt.
-<img/6-scheme-p2.png, id=63, 3317.39375pt x 3402.7125pt>
+<img/6-scheme-p2.png, id=356, 3317.39375pt x 3402.7125pt>
 File: img/6-scheme-p2.png Graphic file (type png)
 <use img/6-scheme-p2.png>
-Package pdftex.def Info: img/6-scheme-p2.png  used on input line 337.
+Package pdftex.def Info: img/6-scheme-p2.png  used on input line 395.
 (pdftex.def)             Requested size: 528.93675pt x 542.52405pt.
-<img/7-scheme.png, id=64, 2052.66875pt x 3723.9125pt>
+<img/7-scheme.png, id=357, 2052.66875pt x 3723.9125pt>
 File: img/7-scheme.png Graphic file (type png)
 <use img/7-scheme.png>
-Package pdftex.def Info: img/7-scheme.png  used on input line 342.
+Package pdftex.def Info: img/7-scheme.png  used on input line 400.
 (pdftex.def)             Requested size: 300.36995pt x 544.92926pt.
-<img/8-scheme.png, id=65, 1982.40625pt x 4476.725pt>
+<img/8-scheme.png, id=358, 1982.40625pt x 4476.725pt>
 File: img/8-scheme.png Graphic file (type png)
 <use img/8-scheme.png>
-Package pdftex.def Info: img/8-scheme.png  used on input line 347.
+Package pdftex.def Info: img/8-scheme.png  used on input line 405.
 (pdftex.def)             Requested size: 271.45493pt x 613.03893pt.
-<img/9-scheme.png, id=66, 2363.83125pt x 4075.225pt>
+<img/9-scheme.png, id=359, 2363.83125pt x 4075.225pt>
 File: img/9-scheme.png Graphic file (type png)
 <use img/9-scheme.png>
-Package pdftex.def Info: img/9-scheme.png  used on input line 352.
+Package pdftex.def Info: img/9-scheme.png  used on input line 410.
 (pdftex.def)             Requested size: 355.56932pt x 613.03893pt.
-<img/10-scheme-p1.png, id=67, 2509.375pt x 3849.38126pt>
+<img/10-scheme-p1.png, id=360, 2509.375pt x 3849.38126pt>
 File: img/10-scheme-p1.png Graphic file (type png)
 <use img/10-scheme-p1.png>
-Package pdftex.def Info: img/10-scheme-p1.png  used on input line 357.
+Package pdftex.def Info: img/10-scheme-p1.png  used on input line 415.
 (pdftex.def)             Requested size: 444.01003pt x 681.15898pt.
-<img/10-scheme-p2.png, id=68, 2268.475pt x 3126.68124pt>
+<img/10-scheme-p2.png, id=361, 2268.475pt x 3126.68124pt>
 File: img/10-scheme-p2.png Graphic file (type png)
 <use img/10-scheme-p2.png>
-Package pdftex.def Info: img/10-scheme-p2.png  used on input line 361.
+Package pdftex.def Info: img/10-scheme-p2.png  used on input line 419.
 (pdftex.def)             Requested size: 420.04207pt x 578.98929pt.
-<img/11-scheme.png, id=69, 2469.225pt x 2720.1625pt>
+<img/11-scheme.png, id=362, 2469.225pt x 2720.1625pt>
 File: img/11-scheme.png Graphic file (type png)
 <use img/11-scheme.png>
-Package pdftex.def Info: img/11-scheme.png  used on input line 366.
+Package pdftex.def Info: img/11-scheme.png  used on input line 424.
 (pdftex.def)             Requested size: 502.4883pt x 553.52782pt.
-<img/12-scheme.png, id=70, 2067.725pt x 2895.81876pt>
+<img/12-scheme.png, id=363, 2067.725pt x 2895.81876pt>
 File: img/12-scheme.png Graphic file (type png)
 <use img/12-scheme.png>
-Package pdftex.def Info: img/12-scheme.png  used on input line 371.
+Package pdftex.def Info: img/12-scheme.png  used on input line 429.
 (pdftex.def)             Requested size: 437.73723pt x 613.03893pt.
 
 
-[9]
+[20]
 
-[10 <./img/1-scheme.png>]
+[21 <./img/1-scheme.png>]
 
-[11 <./img/2-scheme.png>]
+[22 <./img/2-scheme.png>]
 
-[12 <./img/3-scheme.png>]
+[23 <./img/3-scheme.png>]
 
-[13 <./img/4-scheme.png>]
+[24 <./img/4-scheme.png>]
 
-[14 <./img/5-scheme.png>]
+[25 <./img/5-scheme.png>]
 
-[15 <./img/6-scheme-p1.png>]
+[26 <./img/6-scheme-p1.png>]
 
-[16 <./img/6-scheme-p2.png>]
+[27 <./img/6-scheme-p2.png>]
 
-[17 <./img/7-scheme.png>]
+[28 <./img/7-scheme.png>]
 
-[18 <./img/8-scheme.png>]
+[29 <./img/8-scheme.png>]
 
-[19 <./img/9-scheme.png>]
+[30 <./img/9-scheme.png>]
 
-[20 <./img/10-scheme-p1.png>]
+[31 <./img/10-scheme-p1.png>]
 
-[21 <./img/10-scheme-p2.png>]
+[32 <./img/10-scheme-p2.png>]
 
-[22 <./img/11-scheme.png>]
+[33 <./img/11-scheme.png>]
 
-[23 <./img/12-scheme.png>] (./Lab1.aux)
+[34 <./img/12-scheme.png>] (./Lab1.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -1027,18 +1084,18 @@ Package rerunfilecheck Info: File `Lab1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17657 strings out of 473579
- 277800 string characters out of 5722203
- 814731 words of memory out of 5000000
- 40244 multiletter control sequences out of 15000+600000
- 564509 words of font info for 59 fonts, out of 8000000 for 9000
+ 19971 strings out of 473579
+ 308500 string characters out of 5722203
+ 1032969 words of memory out of 5000000
+ 42222 multiletter control sequences out of 15000+600000
+ 565724 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,6n,107p,3303b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on Lab1.pdf (23 pages, 2169621 bytes).
+ 94i,6n,107p,3303b,2016s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on Lab1.pdf (34 pages, 2218136 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 586 PDF objects out of 1000 (max. 8388607)
+ 500 compressed objects within 5 object streams
+ 325 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
