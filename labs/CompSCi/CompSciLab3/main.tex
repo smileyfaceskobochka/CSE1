@@ -135,50 +135,23 @@
 	      $$
 \end{enumerate}
 \pagebreak
-\section*{Решение}
+\section*{Приложение 1.1. Схема алгоритма Задания 1.}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.8\textwidth]{pics/1-flowchart.png}
-	\caption{Схема алгоритма задания 1.}
+	\includegraphics[width=0.9\textwidth]{pics/1-flowchart.png}
 \end{figure}
 \newpage
-\begin{Verbatim}[fontsize=\small]
-	#include <stdio.h>
-
-	int cntBin(int n){
-		int i = 0; //Счетчик нулей в 2-ой записи числа n
-		
-		do {
-			if (n % 2 == 0){
-				i++;
-			}
-			n /= 2;
-		} while (n > 0);
-		printf("%d", i); //Вывод i
-	}
-	
-	int main(){
-		int n; 
-		scanf("%d", &n); //Ввод числа n
-		if(n < 0){
-			return 1;
-		} //Вывод ошибки
-		cntBin(n);
-		return 0;
-	}
-\end{Verbatim}
+\section*{Приложение 1.2. Решение Задания 1.}
+\VerbatimInput[fontsize=\small]{code/1.c}
 \newpage
+\section*{Приложение 2.1. Схема алгоритма Задания 2.}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.8\textwidth]{pics/2-flowchart.png}
-	\caption{Схема алгоритма задания 2.}
+	\includegraphics[width=0.9\textwidth]{pics/2-flowchart.png}
 \end{figure}
 \newpage
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{pics/2-listing.png}
-	\caption*{Листинг 2: Схема алгоритма задания 2.}
-\end{figure}
+\section*{Приложение 2.2. Решение Задания 2.}
+\VerbatimInput[fontsize=\small]{code/2.c}
 \newpage
 \section*{Вывод}
 \end{document}

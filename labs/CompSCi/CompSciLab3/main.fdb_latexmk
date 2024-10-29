@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1730114238.59519 "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab3/main.tex" "main.pdf" "main" 1730114242.06804 0
+["pdflatex"] 1730169922.29719 "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab3/main.tex" "main.pdf" "main" 1730169924.10866 0
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1728330280 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1728388177 3240 c2435f2b5cd66d4930bc29b8df87967e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1728330277 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
@@ -131,13 +131,14 @@
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728329813 5520513 fa75b860fe65a553d5f8f3a0827fe4df ""
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728329949 3326072 dc2bcc73f764b4477a985f73611de3ac ""
   "c:/Users/livin/.vscode/texlive/2024/texmf.cnf" 1728329792 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab3/main.tex" 1730114237 7692 d346f885047abe0592c7e93955374583 ""
-  "main.aux" 1730114241 632 1afd6cb1d3a28c68bef23922bf5ee722 "pdflatex"
-  "main.out" 1730114240 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1730114237 7692 d346f885047abe0592c7e93955374583 ""
+  "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab3/main.tex" 1730169921 7306 1c312d4be344a4398da37b36a321abee ""
+  "code/1.c" 1730169370 441 4b30c421012ca2cd0e6496635ea6b92b ""
+  "code/2.c" 1730169762 884 97933a558b2abcf16d00f3668e0ab1a7 ""
+  "main.aux" 1730169923 300 b5a1c3086257989c180c312edde7fddb "pdflatex"
+  "main.out" 1730169923 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1730169921 7306 1c312d4be344a4398da37b36a321abee ""
   "pics/1-flowchart.png" 1728922934 135266 8e71513d094281db13434eac58e0f3d6 ""
   "pics/2-flowchart.png" 1728930358 273723 823c16fd076297c496260ef092fd347a ""
-  "pics/2-listing.png" 1728932517 187253 a654c6f12914af9ec07ca716eb4be211 ""
   (generated)
   "main.aux"
   "main.log"
