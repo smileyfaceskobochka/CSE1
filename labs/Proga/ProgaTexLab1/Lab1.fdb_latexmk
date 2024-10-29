@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1730155784.84849 "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab1/Lab1.tex" "Lab1.pdf" "Lab1" 1730155792.03794 0
-  "Lab1.aux" 1730155791 2495 94ffc59d388a9ee887890ba036bf7d95 "pdflatex"
-  "Lab1.out" 1730155785 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["pdflatex"] 1730204078.05907 "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab1/Lab1.tex" "Lab1.pdf" "Lab1" 1730204085.47179 0
+  "Lab1.aux" 1730204085 2495 94ffc59d388a9ee887890ba036bf7d95 "pdflatex"
+  "Lab1.out" 1730204078 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Lab1.tex" 1730155776 22004 bfc58b0b21520abe067a840ef7c3e42e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1728330280 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1728330277 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
@@ -145,7 +145,7 @@
   "img/12-scheme.png" 1729209397 552920 05fa918ee907ccbabd58c3f978019b46 ""
   "img/2-scheme.png" 1729208477 568248 e1c1eea3741003f2173417604f19bdfe ""
   "img/3-scheme.png" 1729208606 901212 e4a01ba2cdb392540e43623e7c973568 ""
-  "img/4-scheme.png" 1729208701 590388 07fdbe39c55ffc83f9e978a0950d8080 ""
+  "img/4-scheme.png" 1730204064 618459 0496ddf04776deeadf76df19d85e0e5c ""
   "img/5-scheme.png" 1729208747 478437 9cbc95c58e7b6a2d6eb6e0e4fb11e96c ""
   "img/6-scheme-p1.png" 1729208781 601982 f39224422420a7e155d5399497080027 ""
   "img/6-scheme-p2.png" 1729208831 515300 e02843c23134253503189f845d60249d ""
