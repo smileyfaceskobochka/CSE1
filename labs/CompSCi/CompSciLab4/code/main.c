@@ -22,7 +22,7 @@ int one(int x, int n) {
 
     putchar(x < 0 ? '1' : '0');
     
-    for (int i = 1; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         putchar(x << 1 ? '0' : '1');
     }
 
@@ -55,6 +55,6 @@ int main() {
     one(x, n);
     putchar('\n');
     printf("3. ");
-    three()
+    three(x, n);
     return 0;
 }
