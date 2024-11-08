@@ -2,59 +2,63 @@
 #include <stdlib.h>
 #include <math.h>
 
-int zero(unsigned int x, int n) {
+void zero(unsigned int x, int n) {
     if (x < 0 || x >= (1U << n)) {
         printf("ошибка");
-        return -1;
-    }
-
-    for (int i = n - 1; i >= 0; i--) {
-        putchar((x & (1U << i)) ? '1' : '0');
-    }
-    return 0;
+    } else {
+        for (int i = n - 1; i >= 0; i--) {
+            putchar((x & (1U << i)) ? '1' : '0');
+        }
+    }  
 }
 
-int one(int x, int n) {    
+void one(int x, int n) {  
+    int mask = 1 << (n - 1);
+
     if (x < -(1 << (n - 1)) || x >= (1 << (n - 1))) {
         printf("ошибка");
-        return -1;
+    } else {
+        if (x < 0) x = ~x + 1;
+        for (int i = 0; i < n; i++) {
+            putchar(x & mask ? '1' : '0');
+            mask >>= 1;
+        }
     }
-
-    putchar(x < 0 ? '1' : '0');
-    
-    for (int i = 0; i < n; i++) {
-        putchar(x << 1 ? '0' : '1');
-    }
-
-    return 0;
 }
 
-int three(int x, int n) {    
-    if (x < 0 || x >= (1U << n)) {
+void three(int x, int n) {    
+    int mask = 1 << (n - 1);
+
+    if (x < -(1 << (n - 1)) || x >= (1 << (n - 1))) {
         printf("ошибка");
-        return -1;
+    } else {
+        if (x < 0) {
+            for (int i = 0; i < n; i++) {
+                putchar(x & 1 ? '0' : '1');
+                x >>= 1;
+            }
+        } else {
+            for (int i = 0; i < n; i++) {
+                putchar(x & 1 ? '1' : '0');
+                x >>= 1;
+            }
+        }
     }
 
-    putchar(x < 0 ? '1' : '0');
     
-    for (int i = 1; i < n; i++) {
-        putchar(x << 1 ? '0' : '1');
-    }
-
-    return 0;
 }
 
 int main() {
     int x, n;
     scanf("%d %d", &x, &n);
 
-    printf("1. ");
+    printf("0. ");
     zero(x, n);
     putchar('\n');
-    printf("2. ");
+    printf("1. ");
     one(x, n);
     putchar('\n');
-    printf("3. ");
+    printf("2. ");
     three(x, n);
     return 0;
 }
