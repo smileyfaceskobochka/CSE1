@@ -107,7 +107,7 @@ int main() {
 
   // Дробная часть в систему счисления M
   char fracRes[50];
-  int precision = fracPart ? ceil(strlen(fracPart) * logBase(k, m)) : 0; // Количество знаков дробной части
+  int precision = fracPart ? ceil(strlen(fracPart) * logBase(m, k)) : 0; // Количество знаков дробной части
   convertFracToBase(fracDec, m, fracRes, precision);
 
   if (precision > 0) {
