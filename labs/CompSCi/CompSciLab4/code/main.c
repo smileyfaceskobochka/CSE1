@@ -18,7 +18,7 @@ void zero(unsigned int x, int n) {
 void one(int x, int n) {
     printf("1. ");
     if (x <= -(1 << (n - 1)) || x >= (1 << (n - 1))) {
-        printf("ошибка: число %d не входит в диапазон представления числа в прямом коде для сетки %d.\n", x, n);
+        printf("ошибка: число %d выходит из диапазона представления в прямом коде для сетки %d.\n", x, n);
         return;
     }
 
@@ -33,14 +33,14 @@ void one(int x, int n) {
         putchar((x & (1U << i)) ? '1' : '0');
     }
 
-    putchar('\n');
+    printf(" (прямой код)\n");
 }
 
 void two(int x, int n) {
     printf("2. ");
 
     if (x < -(1 << (n - 1)) || x >= (1 << (n - 1))) {
-        printf("ошибка\n");
+        printf("ошибка: число %d выходит из диапазона представления в дополнительном коде для сетки %d\n", x, n);
         return;
     }
 
@@ -51,26 +51,32 @@ void two(int x, int n) {
         mask >>= 1;
     }
 
-    putchar('\n');
+    printf(" (дополнительный код)\n");
 }
 
 void three(int x, int n) {
     printf("3. ");
-    if (x < 0) x = -x;
-    if (x >= (1U << n)) {
+    if (x >= (1 << n)) {
         printf("ошибка: число %d не входит в диапазон представления для сетки %d.\n", x, n);
         return;
     }
 
-    for (int i = n - 1; i >= 0; i--) {
-        putchar((x & (1U << i)) ? '0' : '1');
+    if (x < 0) {
+        x = -x;
+        for (int i = n - 1; i >= 0; i--) {
+            putchar((x & (1U << i)) ? '0' : '1');
+        }
+    } else {
+        for (int i = n - 1; i >= 0; i--) {
+            putchar((x & (1U << i)) ? '1' : '0');
+        }
     }
-    putchar('\n');
+    printf(" (обратный код)\n");
 }
 
 void four(int x, int n) {
-    printf("3. ");
-    
+    printf("4. ");
+
     putchar('\n');
 }
 
