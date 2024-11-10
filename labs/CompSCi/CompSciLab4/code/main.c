@@ -36,22 +36,25 @@ void one(int x, int n) {
     printf(" (прямой код)\n");
 }
 
-void two(int x, int n) {
-    printf("2. ");
+char* two(int x, int n) {
+    char *arr = (char*)malloc(sizeof(char) * (n + 1));
 
     if (x < -(1 << (n - 1)) || x >= (1 << (n - 1))) {
         printf("ошибка: число %d выходит из диапазона представления в дополнительном коде для сетки %d\n", x, n);
-        return;
+        free(arr);
+        return NULL;
     }
 
     int mask = 1 << (n - 1);
 
-    for (int i = n - 1; i >= 0; i--) {
-        putchar((x & mask) ? '1' : '0');
+    for (int i = 0; i < n; i++) {
+        arr[i] = (x & mask) ? '1' : '0';
         mask >>= 1;
     }
 
-    printf(" (дополнительный код)\n");
+    arr[n] = '\0';
+
+    return arr;
 }
 
 void three(int x, int n) {
@@ -74,20 +77,34 @@ void three(int x, int n) {
     printf(" (обратный код)\n");
 }
 
-void four(int x, int n) {
-    printf("4. ");
+int four(int x, int y, int n) {
+    char* str1 = two(x, n); 
+    char* str2 = two(y, n);
 
-    putchar('\n');
+    if (str1 == NULL || str2 == NULL){
+        printf("че?");
+        return -1;
+    }
+
+    int dist = 0;
+
+    for (int i = 0; i < n; i++) {
+        if (str1[i] != str2[i]) {
+            dist++;
+        }
+    }
+
+    return dist;
 }
 
 int main() {
-    int x, n;
-    scanf("%d %d", &x, &n);
+    int x, y, n;
+    scanf("%d %d %d", &x, &y, &n);
 
     zero(x, n);
     one(x, n);
-    two(x, n);
+    printf("2. %s (дополнительный код)\n", two(x, n));
     three(x, n);
-    four(x, n);
+    printf("4. %d (расстояние по хэммингу)", four(x, y, n));
     return 0;
 }
