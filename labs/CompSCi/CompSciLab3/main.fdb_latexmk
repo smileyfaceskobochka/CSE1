@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1731336579.68642 "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab3/main.tex" "main.pdf" "main" 1731336583.20673 0
+["pdflatex"] 1731370453.43772 "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab3/main.tex" "main.pdf" "main" 1731370459.17956 0
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1728330280 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1728388177 3240 c2435f2b5cd66d4930bc29b8df87967e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1728330277 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
@@ -131,17 +131,20 @@
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728329813 5520513 fa75b860fe65a553d5f8f3a0827fe4df ""
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728329949 3326072 dc2bcc73f764b4477a985f73611de3ac ""
   "c:/Users/livin/.vscode/texlive/2024/texmf.cnf" 1728329792 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab3/main.tex" 1731336575 7723 f93ff24b5c1d2b1c5b2fb24ab19c854e ""
+  "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab3/main.tex" 1731370450 9362 4c52a1f761e672b1be6e0fe6b749cf32 ""
   "code/1.c" 1730169370 441 4b30c421012ca2cd0e6496635ea6b92b ""
   "code/2.c" 1730169762 884 97933a558b2abcf16d00f3668e0ab1a7 ""
-  "code/3.c" 1731286864 6014 c38d909977b019f66919cdaf271f750f ""
-  "main.aux" 1731336583 301 54b045e3de25e9b69ea8afa0766ae9e0 "pdflatex"
-  "main.out" 1731336580 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1731336575 7723 f93ff24b5c1d2b1c5b2fb24ab19c854e ""
+  "code/3.c" 1731358336 6009 024d4b2683c8fa09d2703e8467432094 ""
+  "code/4.c" 1731366820 4538 370f0d492d459e64a4e3c7d0c577f9d0 ""
+  "main.aux" 1731370459 301 39d166f90237123629f9cbc18c69cb87 "pdflatex"
+  "main.out" 1731370454 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1731370450 9362 4c52a1f761e672b1be6e0fe6b749cf32 ""
   "pics/1-flowchart.png" 1728922934 135266 8e71513d094281db13434eac58e0f3d6 ""
   "pics/2-flowchart.png" 1728930358 273723 823c16fd076297c496260ef092fd347a ""
   "pics/3-flowchart-p1.png" 1731336123 1168369 c14a5ce6d9834d15d5e6bcb924d5c098 ""
   "pics/3-flowchart-p2.png" 1731336218 685141 3d0ba497e28ca3cd5bf846a2818c97c4 ""
+  "pics/4-flowchart-p1.png" 1731366740 1227435 4b123f86ddb546949788977d0fde8017 ""
+  "pics/4-flowchart-p2.png" 1731366769 917572 d275595762564b348e8412bd36c9e81e ""
   (generated)
   "main.aux"
   "main.log"

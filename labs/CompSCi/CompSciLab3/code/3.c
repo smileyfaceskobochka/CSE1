@@ -12,7 +12,6 @@ int convertIntToDec(const char *intPart, int base) {
     int digit = intPart[i] - '0';               // char to int
     decimalValue = decimalValue * base + digit; // Обновляем десятичное значение
   }
-
   return decimalValue; // Возвращаем десятичное значение целой части
 }
 
@@ -26,7 +25,6 @@ double convertFracToDec(const char *frac, int base) {
     int digit = frac[i] - '0';               // char to int
     decValue += digit / (basePower *= base); // Добавляем значение к десятичному
   }
-
   return decValue; // Десятичное значение дробной части
 }
 
@@ -50,7 +48,6 @@ int convertIntToBase(int number, int base, char *result) {
     result[i] = result[index - i - 1]; // Меняем местами символы
     result[index - i - 1] = temp;      // Меняем местами символы
   }
-
   return 0; // Успешное выполнение
 }
 
@@ -69,14 +66,14 @@ int convertFracToBase(double frac, int base, char *result, int precision) {
     result[index++] = '0' + digit; // Записываем символ в результат
     frac -= digit;                 // Убираем целую часть из дробной
   }
-
   result[index] = '\0'; // Завершаем строку нулевым символом
   return 0;             // Успешное выполнение
 }
 
 int main() {
   char x[50]; // Массив для хранения входной строки
-  printf("Введите число x, основание его системы счисления k и основание системы счисления m в которую хотите перевести: ");
+  printf("Введите число x, основание его системы счисления k и основание системы\
+счисления m в которую хотите перевести: ");
   fgets(x, sizeof(x), stdin); // Читаем входные данные
 
   char *token = strtok(x, " "); // Разделяем строку на 3 токена
@@ -107,7 +104,8 @@ int main() {
 
   // Дробная часть в систему счисления M
   char fracRes[50];
-  int precision = fracPart ? ceil(strlen(fracPart) * logBase(m, k)) : 0; // Количество знаков дробной части
+  // Количество знаков дробной части
+  int precision = fracPart ? ceil(strlen(fracPart) * logBase(m, k)) : 0;
   convertFracToBase(fracDec, m, fracRes, precision);
 
   if (precision > 0) {
@@ -116,6 +114,5 @@ int main() {
   else {
     printf("%s\n", intRes);
   }
-
   return 0;
 }
