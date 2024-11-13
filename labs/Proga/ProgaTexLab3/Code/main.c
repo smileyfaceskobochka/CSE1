@@ -30,7 +30,7 @@ double estimate_error(double a, double b, int n) {
     return error;
 }
 
-void print_menu(int highlight) {
+void print_menu(int highlight, double a, double b, int n) {
     const char *choices[MAX_ITEMS] = {
         "Ввести данные",
         "Вычислить площадь",
@@ -40,7 +40,7 @@ void print_menu(int highlight) {
     system("cls");
     for (int i = 0; i < MAX_ITEMS; ++i) {
         if (highlight == i) {
-            printf("> %s\n", choices[i]);
+            printf("> %s (a: %lf, b: %lf, n: %d)\n", choices[i], a, b, n);
         } else {
             printf("%s\n", choices[i]);
         }
@@ -53,8 +53,9 @@ int main() {
     double a, b;
     int n;
     while (1) {
-        print_menu(highlight);
+        print_menu(highlight, a, b, n);
         int c = _getch();
+        // Скролл меню стрелками и выбор ентером
         switch (c) {
             case 224:
                 switch (_getch()) {
@@ -85,8 +86,10 @@ int main() {
                     printf("Нажмите любую клавишу, чтобы вернуться в меню...");
                     _getch();
                     break;
+
                 case 1: // вычислить площадь
                     double area = integrate(a, b, n);
+                    printf("------------------------------------------------\n");
                     printf("Площадь: %.6lf\n", area);
                     printf("Нажмите любую клавишу, чтобы вернуться в меню...");
                     _getch();
