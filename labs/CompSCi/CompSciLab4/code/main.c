@@ -53,7 +53,8 @@ char* two(int x, int n) {
     }
 
     arr[n] = '\0';
-
+    
+    free(arr);
     return arr;
 }
 
