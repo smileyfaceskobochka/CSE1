@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <math.h>
 
-#define MAX_ITEMS 4
+#define MAX_ITEMS 5
 
 double curve(double x) {
     return 2 * pow(x, 3) + 2 * pow(x, 2) + 3 * x + 1;
@@ -32,7 +32,8 @@ double estimate_error(double a, double b, int n) {
 
 void print_menu(int highlight, double a, double b, int n) {
     const char *choices[MAX_ITEMS] = {
-        "Ввести данные",
+        "Ввести верхний и нижний пределы",
+        "Ввести количество прямоугольников",
         "Вычислить площадь",
         "Найти Погрешность",
         "Завершить"
@@ -75,9 +76,13 @@ int main() {
         }
         if (choice >= 0) {
             switch (choice) {
-                case 0: // Ввести данные
+                case 0: // Ввести пределы
                     printf("Введите пределы интегрирования (a b): ");
                     scanf("%lf %lf", &a, &b);
+                    printf("Нажмите любую клавишу, чтобы вернуться в меню...");
+                    _getch();
+                    break;
+                case 1:
                     printf("Введите количество прямоугольников: ");
                     scanf("%d", &n);
                     if (n <= 0) {
@@ -86,8 +91,7 @@ int main() {
                     printf("Нажмите любую клавишу, чтобы вернуться в меню...");
                     _getch();
                     break;
-
-                case 1: // вычислить площадь
+                case 2: // вычислить площадь
                     double area = integrate(a, b, n);
                     printf("------------------------------------------------\n");
                     printf("Площадь: %.6lf\n", area);
@@ -95,14 +99,15 @@ int main() {
                     _getch();
                     break;
 
-                case 2: // Вычислить погрешность
+                case 3: // Вычислить погрешность
                     double error = estimate_error(a, b, n);
+                    printf("------------------------------------------------\n");
                     printf("Оценка погрешности: %.6lf\n", error);
                     printf("Нажмите любую клавишу, чтобы вернуться в меню...");
                     _getch();
                     break;
 
-                case 3: // Завершить
+                case 4: // Завершить
                     printf("Выход...\n");
                     return 0;
             }
