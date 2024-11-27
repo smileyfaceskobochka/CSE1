@@ -1,15 +1,11 @@
-program sixteen;
-
 var
     n, i, newSize: Integer; // Кол-во эоементов в массиве, счетчик, размер нового массива
     arr: array of Integer; // Исходный массив
     newArr: array of Integer; // Новый массив
-
 begin
     readln(n);
     SetLength(arr, n);
     SetLength(newArr, n);
-
     for i := 0 to n - 1 do begin
         read(arr[i]);
     end;

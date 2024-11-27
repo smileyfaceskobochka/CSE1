@@ -1,9 +1,7 @@
-program twentytwo;
 var
   n, i, firstViol: integer;
   arr: array of real;
   notDecr: boolean;
-
 begin
   readln(n);
   SetLength(arr, n);

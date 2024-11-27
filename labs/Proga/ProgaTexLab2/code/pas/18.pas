@@ -1,10 +1,7 @@
-program eighteen;
-
 var
     n, i, newSize, cnt, sum, evenCnt: integer;
     arr: array of integer;
     newArr: array of integer;
-
 begin
     readln(n);
     SetLength(arr, n);

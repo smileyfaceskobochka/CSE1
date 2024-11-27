@@ -9,25 +9,27 @@ double curve(double x) {
     return 2 * pow(x, 3) + 2 * pow(x, 2) + 3 * x + 1;
 }
 
+double antiderivative(double x) { // Первообразная
+    return 0.5 * pow(x, 4) + (2.0 / 3.0) * pow(x, 3) + 1.5 * pow(x, 2) + x;
+}
+
 double integrate(double a, double b, int n) {
     double width = (b - a) / n;
     double area = 0.0;
     for (int i = 0; i < n; i++) {
         double x = a + (i + 0.5) * width;
-        area += curve(x) * width;
+        double y = curve(x);
+        if (y > 0) { // +
+            area += y * width;
+        }
     }
     return area;
 }
 
 double estimate_error(double a, double b, int n) {
-    double width = (b - a) / n;
-    double error = 0.0;
-    for (int i = 0; i < n; i++) {
-        double x = a + (i + 0.5) * width;
-        double derivative = 6 * pow(x, 2) + 4 * x + 3;
-        error += fabs(derivative) * width * width / 2;
-    }
-    return error;
+    double numerical = integrate(a, b, n);
+    double exact = antiderivative(b) - antiderivative(a);
+    return fabs(exact - numerical);
 }
 
 void print_menu(int highlight, double a, double b, int n) {
@@ -56,7 +58,7 @@ int main() {
     while (1) {
         print_menu(highlight, a, b, n);
         int c = _getch();
-        // Скролл меню стрелками и выбор ентером
+        // Скролл меню стрелками и выбор энтером
         switch (c) {
             case 224:
                 switch (_getch()) {

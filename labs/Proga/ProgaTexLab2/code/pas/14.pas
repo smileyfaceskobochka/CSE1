@@ -1,9 +1,7 @@
-program fourteen;
 var
     n, i, j, prev: integer;
     arr: array of integer;
     flag, nigg: boolean;
-
 begin
     readln(n);
     SetLength(arr, n);

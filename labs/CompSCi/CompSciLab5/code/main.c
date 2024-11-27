@@ -19,9 +19,9 @@ char* zero(float x, int n, int m) {
     int e = n - 1 - m;
 
     // Извлечение экспоненты
-    int raw_exp = (u.i >> 23) & 0xFF; // 8 бит для экспоненты (float)
-    int exp_bias = (1 << (e - 1)) - 1; // Смещение экспоненты
-    int exp = raw_exp - 127 + exp_bias; // Преобразуем экспоненту в нужный bias
+    int raw_exp = (u.i >> 23) & 0xFF; // 8 бит для экспоненты
+    int exp_bias = (1 << (e - 1)) - 1;
+    int exp = raw_exp - 127 + exp_bias;
 
     // Обработка переполнения/недополнения экспоненты
     if (raw_exp == 0) { // Денормализованное число
@@ -84,7 +84,6 @@ char* one(float x, int n, int m) {
     res[n] = '\0';
     return res;
 }
-
 
 char* two(float x, int n, int m) {
     char* res = malloc(n + 1);
