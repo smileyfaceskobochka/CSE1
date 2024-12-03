@@ -19,46 +19,83 @@ double integrate(double a, double b, int n) {
     for (int i = 0; i < n; i++) {
         double x = a + (i + 0.5) * width;
         double y = curve(x);
-        if (y > 0) { // +
+        if (y > 0) {
             area += y * width;
         }
     }
     return area;
 }
 
-double estimate_error(double a, double b, int n) {
+void estimate_error(double a, double b, int n, double *abs_error, double *rel_error) {
     double numerical = integrate(a, b, n);
     double exact = antiderivative(b) - antiderivative(a);
-    return fabs(exact - numerical);
+    *abs_error = fabs(exact - numerical);
+    *rel_error = (exact != 0) ? (*abs_error / fabs(exact)) * 100.0 : 0.0;
 }
 
+// Общие вспомогательные функции
+void wait_and_return() {
+    printf("Нажмите любую клавишу, чтобы вернуться в меню...\n");
+    _getch();
+}
+
+double find_x() {
+    double left = -1, right = 0, centre;
+    while(right - left > 1e-10) {
+    centre = (left + right) / 2;
+    if(curve(centre) * curve(right) < 0)
+        left = centre;
+    else
+        right = centre;
+    }
+    double foundX = (left + right) / 2;
+    return foundX;
+}
+
+void input_limits(double *a, double *b) {
+    printf("Введите пределы интегрирования (a b): ");
+    scanf("%lf %lf", a, b);
+    if(*a < find_x()) *a = find_x();
+}
+
+void input_rectangles(int *n) {
+    printf("Введите количество прямоугольников: ");
+    scanf("%d", n);
+    if (*n <= 0) {
+        printf("Количество прямоугольников должно быть положительным.\n");
+        *n = 0;
+    }
+}
+
+// Меню
 void print_menu(int highlight, double a, double b, int n) {
     const char *choices[MAX_ITEMS] = {
-        "Ввести верхний и нижний пределы",
+        "Ввести верхний и нижний пределы интегрирования",
         "Ввести количество прямоугольников",
         "Вычислить площадь",
-        "Найти Погрешность",
+        "Найти погрешность",
         "Завершить"
     };
     system("cls");
     for (int i = 0; i < MAX_ITEMS; ++i) {
-        if (highlight == i) {
-            printf("> %s (a: %lf, b: %lf, n: %d)\n", choices[i], a, b, n);
-        } else {
-            printf("%s\n", choices[i]);
-        }
+        if (highlight == i) printf("> %s (a: %lf, b: %lf, n: %d)\n", choices[i],\
+a, b, n);
+        else printf("%s\n", choices[i]);
     }
 }
 
+// Главная функция
 int main() {
     int highlight = 0;
     int choice = -1;
-    double a, b;
-    int n;
-    while (1) {
+    double a = 0, b = 0;
+    int n = 0;
+    int limits = 0, rect = 0, exit = 1;
+
+    while (exit) {
         print_menu(highlight, a, b, n);
         int c = _getch();
-        // Скролл меню стрелками и выбор энтером
+        // Скролл меню стрелками и выбор Enter
         switch (c) {
             case 224:
                 switch (_getch()) {
@@ -76,44 +113,46 @@ int main() {
             default:
                 continue;
         }
+
         if (choice >= 0) {
             switch (choice) {
                 case 0: // Ввести пределы
-                    printf("Введите пределы интегрирования (a b): ");
-                    scanf("%lf %lf", &a, &b);
-                    printf("Нажмите любую клавишу, чтобы вернуться в меню...");
-                    _getch();
+                    input_limits(&a, &b);
+                    limits = 1;
+                    wait_and_return();
                     break;
-                case 1:
-                    printf("Введите количество прямоугольников: ");
-                    scanf("%d", &n);
-                    if (n <= 0) {
-                        printf("Количество прямоугольников должно быть положительным.\n");
+                case 1: // Ввести количество прямоугольников
+                    input_rectangles(&n);
+                    rect = (n > 0);
+                    wait_and_return();
+                    break;
+                case 2: // Вычислить площадь
+                    if (limits && rect) {
+                        double area = integrate(a, b, n);
+                        printf("Площадь: %.6lf\n", area);
+                    } else {
+                        printf("Необходимо задать пределы и\
+количество прямоугольников.\n");
                     }
-                    printf("Нажмите любую клавишу, чтобы вернуться в меню...");
-                    _getch();
+                    wait_and_return();
                     break;
-                case 2: // вычислить площадь
-                    double area = integrate(a, b, n);
-                    printf("------------------------------------------------\n");
-                    printf("Площадь: %.6lf\n", area);
-                    printf("Нажмите любую клавишу, чтобы вернуться в меню...");
-                    _getch();
+                case 3: // Найти погрешность
+                    if (limits && rect) {
+                        double abs_error, rel_error;
+                        estimate_error(a, b, n, &abs_error, &rel_error);
+                        printf("Абсолютная погрешность: %.6lf\n", abs_error);
+                        printf("Относительная погрешность: %.6lf%%\n", rel_error);
+                    } else {
+                        printf("Необходимо задать пределы и\
+количество прямоугольников.\n");
+                    }
+                    wait_and_return();
                     break;
-
-                case 3: // Вычислить погрешность
-                    double error = estimate_error(a, b, n);
-                    printf("------------------------------------------------\n");
-                    printf("Оценка погрешности: %.6lf\n", error);
-                    printf("Нажмите любую клавишу, чтобы вернуться в меню...");
-                    _getch();
-                    break;
-
                 case 4: // Завершить
                     printf("Выход...\n");
-                    return 0;
+                    exit = 0;
             }
-            choice = -1; // Сброс выбора после выполнения действия, иначе 😡
+            choice = -1; // Сброс выбора
         }
     }
     return 0;

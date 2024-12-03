@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1732740652.94509 "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab2/lab2.tex" "lab2.pdf" "lab2" 1732740660.8591 0
+["pdflatex"] 1732740996.70025 "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab2/lab2.tex" "lab2.pdf" "lab2" 1732741004.44376 0
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1728330280 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm" 1728378575 3220 0e417eaf233b160335902e97259a6c77 ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1728388177 3240 c2435f2b5cd66d4930bc29b8df87967e ""
@@ -136,7 +136,7 @@
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728329813 5520513 fa75b860fe65a553d5f8f3a0827fe4df ""
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728329949 3326072 dc2bcc73f764b4477a985f73611de3ac ""
   "c:/Users/livin/.vscode/texlive/2024/texmf.cnf" 1728329792 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab2/lab2.tex" 1732740652 24806 43c28ad5565afff47b53db3b919b0d0e ""
+  "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab2/lab2.tex" 1732740933 24706 c807382a848c4afa25549f98298dc6b5 ""
   "code/C/13.c" 1731383114 681 2faebc60715e951449d1346a7934b06c ""
   "code/C/15.c" 1730545127 534 dff846ded0cf064dd498826eaf101c3f ""
   "code/C/17.c" 1730543601 544 19a6d26ba135e2c1df2adbc255542bf9 ""
@@ -146,10 +146,10 @@
   "code/pas/16.pas" 1732738389 840 e91d3d5bad6fc6ea14081b4d46eda2cd ""
   "code/pas/18.pas" 1732738317 913 384f1f1e733ddce98e77c67ed401e532 ""
   "code/pas/20.pas" 1732738542 639 5ae2123eda1adfcc4c6090c45c632565 ""
-  "code/pas/22.pas" 1732738332 422 4175d1203a9aeb78912515ea500fa5fa ""
-  "lab2.aux" 1732740660 301 de8c7221dabc320e473e4449213af8a0 "pdflatex"
-  "lab2.out" 1732740653 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "lab2.tex" 1732740652 24806 43c28ad5565afff47b53db3b919b0d0e ""
+  "code/pas/22.pas" 1732740987 414 cf0d9c17d75b0c9c6101d4b73195e624 ""
+  "lab2.aux" 1732741004 301 e6ee2f72574d4ad377292c938fdd62d9 "pdflatex"
+  "lab2.out" 1732740997 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "lab2.tex" 1732740933 24706 c807382a848c4afa25549f98298dc6b5 ""
   "pics/flowchart-13.png" 1732738618 945073 e2bd256b8dcc509d6c469d5a14ae7a0c ""
   "pics/flowchart-14.png" 1732738643 882062 dfb8541028e493fa9df626172d8eb936 ""
   "pics/flowchart-15.png" 1732739149 808262 6ae2734bf488f484c00e64fefd23575c ""
