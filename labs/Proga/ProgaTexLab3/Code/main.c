@@ -23,12 +23,12 @@ double integrate(double a, double b, int n) {
             area += y * width;
         }
     }
-    return area;
+    return fabs(area);
 }
 
 void estimate_error(double a, double b, int n, double *abs_error, double *rel_error) {
     double numerical = integrate(a, b, n);
-    double exact = antiderivative(b) - antiderivative(a);
+    double exact = fabs(antiderivative(b) - antiderivative(a));
     *abs_error = fabs(exact - numerical);
     *rel_error = (exact != 0) ? (*abs_error / fabs(exact)) * 100.0 : 0.0;
 }
@@ -157,3 +157,4 @@ int main() {
     }
     return 0;
 }
+// Площадь: -66396.659486
