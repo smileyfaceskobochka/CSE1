@@ -13,6 +13,10 @@ double antiderivative(double x) { // Первообразная
     return 0.5 * pow(x, 4) + (2.0 / 3.0) * pow(x, 3) + 1.5 * pow(x, 2) + x;
 }
 
+double integrate_exact(double a, double b) {
+    return fabs(antiderivative(b) - antiderivative(a));
+}
+
 double integrate(double a, double b, int n) {
     double width = (b - a) / n;
     double area = 0.0;
@@ -28,7 +32,7 @@ double integrate(double a, double b, int n) {
 
 void estimate_error(double a, double b, int n, double *abs_error, double *rel_error) {
     double numerical = integrate(a, b, n);
-    double exact = fabs(antiderivative(b) - antiderivative(a));
+    double exact = integrate_exact(a, b);
     *abs_error = fabs(exact - numerical);
     *rel_error = (exact != 0) ? (*abs_error / fabs(exact)) * 100.0 : 0.0;
 }
@@ -56,6 +60,7 @@ void input_limits(double *a, double *b) {
     printf("Введите пределы интегрирования (a b): ");
     scanf("%lf %lf", a, b);
     if(*a < find_x()) *a = find_x();
+    if(*b < find_x()) *b = find_x();
 }
 
 void input_rectangles(int *n) {
@@ -142,6 +147,8 @@ int main() {
                         estimate_error(a, b, n, &abs_error, &rel_error);
                         printf("Абсолютная погрешность: %.6lf\n", abs_error);
                         printf("Относительная погрешность: %.6lf%%\n", rel_error);
+                        printf("-----------------------------------------------\n\
+Точный: %.6lf\nМетод прямоугольников: %.6lf\n", integrate_exact(a, b), integrate(a, b, n));
                     } else {
                         printf("Необходимо задать пределы и\
 количество прямоугольников.\n");

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1733217569.21585 "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab3/torture.tex" "torture.pdf" "torture" 1733217570.94985 0
+["pdflatex"] 1733241876.31921 "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab3/torture.tex" "torture.pdf" "torture" 1733241877.28229 0
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1728330280 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm" 1728378575 3220 0e417eaf233b160335902e97259a6c77 ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1728388177 3240 c2435f2b5cd66d4930bc29b8df87967e ""
@@ -56,8 +56,8 @@
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728329949 3326072 dc2bcc73f764b4477a985f73611de3ac ""
   "c:/Users/livin/.vscode/texlive/2024/texmf.cnf" 1728329792 713 e69b156964470283e0530f5060668171 ""
   "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab3/torture.tex" 1733216764 6036 b00f997345c85dd2c06666c1b5b9634c ""
-  "code/main.c" 1733217567 5569 e054c4cd42ac8b83425b17cee640dd30 ""
-  "torture.aux" 1733217570 170 3d15f69104aa3035930c2271e6a96e52 "pdflatex"
+  "code/main.c" 1733241875 5896 b8d68e06ce82d43fe1b5a4e48ab03bd0 ""
+  "torture.aux" 1733241877 170 3d15f69104aa3035930c2271e6a96e52 "pdflatex"
   "torture.tex" 1733216764 6036 b00f997345c85dd2c06666c1b5b9634c ""
   (generated)
   "torture.aux"
