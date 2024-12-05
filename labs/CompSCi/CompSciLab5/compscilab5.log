@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  5 DEC 2024 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  6 DEC 2024 02:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab4/compscilab4.tex
-(c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab4/compscilab4.tex
+**c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab5/compscilab5.tex
+(c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab5/compscilab5.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
 (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -654,12 +654,12 @@ Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \c@FancyVerbLine=\count333
 \FV@StepNumber=\count334
 \FV@OutFile=\write4
-) (./compscilab4.aux
+) (./compscilab5.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 8.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-\openout1 = `compscilab4.aux'.
+\openout1 = `compscilab5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
@@ -749,100 +749,92 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package xypdf Info: Line width: 0.57597pt on input line 41.
 Package hyperref Info: Link coloring OFF on input line 41.
- (./compscilab4.out) (./compscilab4.out)
+ (./compscilab5.out) (./compscilab5.out)
 \@outlinefile=\write5
-\openout5 = `compscilab4.out'.
+\openout5 = `compscilab5.out'.
 
 
 
 [1
 
 {c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 88--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--113
-
- []
-
-
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 126--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--151
-
- []
-
-
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 164--170
-
- []
-
-
-
-[4]
-<pics/flowchart_p1.png, id=30, 3332.45pt x 5711.3375pt>
-File: pics/flowchart_p1.png Graphic file (type png)
-<use pics/flowchart_p1.png>
-Package pdftex.def Info: pics/flowchart_p1.png  used on input line 188.
-(pdftex.def)             Requested size: 298.077pt x 510.86923pt.
-<pics/flowchart_p2.png, id=32, 4040.09375pt x 5681.225pt>
-File: pics/flowchart_p2.png Graphic file (type png)
-<use pics/flowchart_p2.png>
-Package pdftex.def Info: pics/flowchart_p2.png  used on input line 194.
-(pdftex.def)             Requested size: 387.5117pt x 544.92926pt.
+<pics/5_flowchart_p1.png, id=23, 4040.09375pt x 5731.4125pt>
+File: pics/5_flowchart_p1.png Graphic file (type png)
+<use pics/5_flowchart_p1.png>
+Package pdftex.def Info: pics/5_flowchart_p1.png  used on input line 138.
+(pdftex.def)             Requested size: 360.07889pt x 510.86923pt.
+<pics/5_flowchart_p2.png, id=25, 3628.55624pt x 4777.85pt>
+File: pics/5_flowchart_p2.png Graphic file (type png)
+<use pics/5_flowchart_p2.png>
+Package pdftex.def Info: pics/5_flowchart_p2.png  used on input line 144.
+(pdftex.def)             Requested size: 465.52774pt x 613.03893pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<pics/5_flowchart_p3.png, id=26, 2870.725pt x 4777.85pt>
+File: pics/5_flowchart_p3.png Graphic file (type png)
+<use pics/5_flowchart_p3.png>
+Package pdftex.def Info: pics/5_flowchart_p3.png  used on input line 150.
+(pdftex.def)             Requested size: 368.30135pt x 613.03893pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[4 <./pics/5_flowchart_p1.png>]
+
+LaTeX Warning: Text page 5 contains only floats.
+
+
+
+[5 <./pics/5_flowchart_p2.png>]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+
+
+[6 <./pics/5_flowchart_p3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 156--160
 
  []
 
-
-
-[5 <./pics/flowchart_p1.png>]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 199.
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 162.
+(c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-
-[6 <./pics/flowchart_p2.png>]
 
 [7]
 
 [8]
 
-[9] (./compscilab4.aux)
+[9]
+
+[10] (./compscilab5.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
-Package rerunfilecheck Info: File `compscilab4.out' has not changed.
+Package rerunfilecheck Info: File `compscilab5.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17987 strings out of 473579
- 283398 string characters out of 5722203
- 818617 words of memory out of 5000000
- 40592 multiletter control sequences out of 15000+600000
+ 17994 strings out of 473579
+ 283646 string characters out of 5722203
+ 819619 words of memory out of 5000000
+ 40599 multiletter control sequences out of 15000+600000
  566418 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,7n,107p,3311b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on compscilab4.pdf (9 pages, 684749 bytes).
+ 94i,7n,107p,3311b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on compscilab5.pdf (10 pages, 1023537 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 61 compressed objects within 1 object stream
  17 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
