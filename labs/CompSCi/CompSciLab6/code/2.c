@@ -30,8 +30,8 @@ Node* buildTree(Node* nodes[], int n) {
     while (n > 1) {
         bubbleSort(nodes, n);
 
-        Node* left = nodes[0];
-        Node* right = nodes[1];
+        Node* left = nodes[1];
+        Node* right = nodes[0];
 
         Node* newNode = (Node*)malloc(sizeof(Node));
         newNode->prob = left->prob + right->prob;
@@ -62,7 +62,7 @@ void printCodes(Node* root, int arr[], int top) {
         for (int i = 0; i < top; i++) {
             printf("%d", arr[i]);
         }
-        printf(": %.2f\n", root->prob); 
+        printf(": %.6f\n", root->prob); 
     }
 }
 
@@ -81,7 +81,7 @@ int main() {
     Node* nodes[n];
     for (int i = 0; i < n; i++) {
         float prob;
-        scanf("%f", &prob);
+        scanf("%f.6", &prob);
         nodes[i] = new(prob);
     }
 

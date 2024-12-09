@@ -5,13 +5,25 @@
 
 #define MAX_ITEMS 5
 
-double curve(double x) {
-    return 2 * pow(x, 3) + 2 * pow(x, 2) + 3 * x + 1;
+// double curve(double x) {
+//     return 2 * pow(x, 3) + 2 * pow(x, 2) + 3 * x + 1;
+// }
+
+
+// double antiderivative(double x) { // Первообразная
+//     return 0.5 * pow(x, 4) + (2.0 / 3.0) * pow(x, 3) + 1.5 * pow(x, 2) + x;
+// }
+
+float curve(float x)
+{
+    return 2 * pow(x, 3) - 2 * pow(x, 2) + 0 * x + 16;
 }
 
-double antiderivative(double x) { // Первообразная
-    return 0.5 * pow(x, 4) + (2.0 / 3.0) * pow(x, 3) + 1.5 * pow(x, 2) + x;
+float antiderivative(float x)
+{
+    return 0.5 * pow(x, 4) - 2.0 / 3.0 * pow(x, 3) + 16 * x;
 }
+
 
 double integrate_exact(double a, double b) {
     return fabs(antiderivative(b) - antiderivative(a));
