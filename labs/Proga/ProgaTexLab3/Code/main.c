@@ -5,28 +5,12 @@
 
 #define MAX_ITEMS 5
 
-// double curve(double x) {
-//     return 2 * pow(x, 3) + 2 * pow(x, 2) + 3 * x + 1;
-// }
-
-
-// double antiderivative(double x) { // Первообразная
-//     return 0.5 * pow(x, 4) + (2.0 / 3.0) * pow(x, 3) + 1.5 * pow(x, 2) + x;
-// }
-
-float curve(float x)
-{
-    return 2 * pow(x, 3) - 2 * pow(x, 2) + 0 * x + 16;
+double curve(double x) {
+    return 2 * pow(x, 3) + 2 * pow(x, 2) + 3 * x + 1;
 }
 
-float antiderivative(float x)
-{
-    return 0.5 * pow(x, 4) - 2.0 / 3.0 * pow(x, 3) + 16 * x;
-}
-
-
-double integrate_exact(double a, double b) {
-    return fabs(antiderivative(b) - antiderivative(a));
+double antiderivative(double x) { // Первообразная
+    return 0.5 * pow(x, 4) + (2.0 / 3.0) * pow(x, 3) + 1.5 * pow(x, 2) + x;
 }
 
 double integrate(double a, double b, int n) {
@@ -40,6 +24,10 @@ double integrate(double a, double b, int n) {
         }
     }
     return fabs(area);
+}
+
+double integrate_exact(double a, double b) {
+    return fabs(antiderivative(b) - antiderivative(a));
 }
 
 void estimate_error(double a, double b, int n, double *abs_error, double *rel_error) {
@@ -57,12 +45,10 @@ void wait_and_return() {
 
 double find_x() {
     double left = -1, right = 0, centre;
-    while(right - left > 1e-10) {
-    centre = (left + right) / 2;
-    if(curve(centre) * curve(right) < 0)
-        left = centre;
-    else
-        right = centre;
+    while (right - left > 1e-10) {
+        centre = (left + right) / 2;
+        if (curve(centre) * curve(right) < 0) left = centre;
+        else right = centre;
     }
     double foundX = (left + right) / 2;
     return foundX;
@@ -71,8 +57,8 @@ double find_x() {
 void input_limits(double *a, double *b) {
     printf("Введите пределы интегрирования (a b): ");
     scanf("%lf %lf", a, b);
-    if(*a < find_x()) *a = find_x();
-    if(*b < find_x()) *b = find_x();
+    if (*a < find_x()) *a = find_x();
+    if (*b < find_x()) *b = find_x();
 }
 
 void input_rectangles(int *n) {
@@ -91,17 +77,15 @@ void print_menu(int highlight, double a, double b, int n) {
         "Ввести количество прямоугольников",
         "Вычислить площадь",
         "Найти погрешность",
-        "Завершить"
-    };
+        "Завершить"};
     system("cls");
     for (int i = 0; i < MAX_ITEMS; ++i) {
-        if (highlight == i) printf("> %s (a: %lf, b: %lf, n: %d)\n", choices[i],\
+        if (highlight == i) printf("> %s (a: %lf, b: %lf, n: %d)\n", choices[i],
 a, b, n);
         else printf("%s\n", choices[i]);
     }
 }
 
-// Главная функция
 int main() {
     int highlight = 0;
     int choice = -1;
@@ -114,66 +98,74 @@ int main() {
         int c = _getch();
         // Скролл меню стрелками и выбор Enter
         switch (c) {
-            case 224:
-                switch (_getch()) {
-                    case 72: // Стрелка вверх
-                        highlight = (highlight == 0) ? MAX_ITEMS - 1 : highlight - 1;
-                        break;
-                    case 80: // Стрелка вниз
-                        highlight = (highlight == MAX_ITEMS - 1) ? 0 : highlight + 1;
-                        break;
-                }
+        case 224:
+            switch (_getch()) {
+            case 72: // Стрелка вверх
+                highlight = (highlight == 0) ? MAX_ITEMS - 1 : highlight - 1;
                 break;
-            case 13: // Enter
-                choice = highlight;
+            case 80: // Стрелка вниз
+                highlight = (highlight == MAX_ITEMS - 1) ? 0 : highlight + 1;
                 break;
-            default:
-                continue;
+            }
+            break;
+        case 13: // Enter
+            choice = highlight;
+            break;
+        default:
+            continue;
         }
 
         if (choice >= 0) {
             switch (choice) {
-                case 0: // Ввести пределы
-                    input_limits(&a, &b);
-                    limits = 1;
-                    wait_and_return();
-                    break;
-                case 1: // Ввести количество прямоугольников
-                    input_rectangles(&n);
-                    rect = (n > 0);
-                    wait_and_return();
-                    break;
-                case 2: // Вычислить площадь
-                    if (limits && rect) {
-                        double area = integrate(a, b, n);
-                        printf("Площадь: %.6lf\n", area);
-                    } else {
-                        printf("Необходимо задать пределы и\
-количество прямоугольников.\n");
-                    }
-                    wait_and_return();
-                    break;
-                case 3: // Найти погрешность
-                    if (limits && rect) {
-                        double abs_error, rel_error;
-                        estimate_error(a, b, n, &abs_error, &rel_error);
-                        printf("Абсолютная погрешность: %.6lf\n", abs_error);
-                        printf("Относительная погрешность: %.6lf%%\n", rel_error);
-                        printf("-----------------------------------------------\n\
-Точный: %.6lf\nМетод прямоугольников: %.6lf\n", integrate_exact(a, b), integrate(a, b, n));
-                    } else {
-                        printf("Необходимо задать пределы и\
-количество прямоугольников.\n");
-                    }
-                    wait_and_return();
-                    break;
-                case 4: // Завершить
-                    printf("Выход...\n");
-                    exit = 0;
+            case 0: // Ввести пределы
+                input_limits(&a, &b);
+                limits = 1;
+                wait_and_return();
+                break;
+            case 1: // Ввести количество прямоугольников
+                input_rectangles(&n);
+                rect = (n >= 0);
+                wait_and_return();
+                break;
+            case 2: // Вычислить площадь
+                if (!limits) { // Проверка пределов
+                    printf("Необходимо сначала задать пределы интегрирования.\n");
+                }
+                else if (!rect) { // Проверка количества прямоугольников
+                    printf("Необходимо сначала задать количество прямоугольников.\n");
+                }
+                else {
+                    double area = integrate(a, b, n);
+                    printf("Площадь: %.6lf\n", area);
+                }
+                wait_and_return();
+                break;
+
+            case 3: // Найти погрешность
+                if (!limits) {
+                    printf("Необходимо сначала задать пределы интегрирования.\n");
+                }
+                else if (!rect) {
+                    printf("Необходимо сначала задать количество прямоугольников.\n");
+                }
+                else {
+                    double abs_error, rel_error;
+                    estimate_error(a, b, n, &abs_error, &rel_error);
+                    printf("Абсолютная погрешность: %.6lf\n", abs_error);
+                    printf("Относительная погрешность: %.6lf%%\n", rel_error);
+                    printf("-----------------------------------------------\n");
+                    printf("Точный: %.6lf\nМетод прямоугольников: %.6lf\n",\
+integrate_exact(a, b), integrate(a, b, n));
+                }
+                wait_and_return();
+                break;
+
+            case 4: // Завершить
+                printf("Выход...\n");
+                exit = 0;
             }
             choice = -1; // Сброс выбора
         }
     }
     return 0;
 }
-// Площадь: -66396.659486
