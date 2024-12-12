@@ -262,10 +262,10 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="b"/>
     </comp>
-    <comp lib="0" loc="(180,30)" name="Constant">
+    <comp lib="0" loc="(130,50)" name="Constant">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="0" loc="(480,60)" name="Pin">
+    <comp lib="0" loc="(450,330)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="x"/>
@@ -328,20 +328,20 @@
     <wire from="(130,340)" to="(130,460)"/>
     <wire from="(130,340)" to="(310,340)"/>
     <wire from="(130,460)" to="(310,460)"/>
+    <wire from="(130,50)" to="(150,50)"/>
     <wire from="(140,160)" to="(140,190)"/>
     <wire from="(140,190)" to="(140,280)"/>
     <wire from="(140,190)" to="(190,190)"/>
     <wire from="(140,280)" to="(140,470)"/>
     <wire from="(140,280)" to="(310,280)"/>
     <wire from="(140,470)" to="(310,470)"/>
-    <wire from="(180,130)" to="(180,170)"/>
-    <wire from="(180,130)" to="(190,130)"/>
-    <wire from="(180,170)" to="(190,170)"/>
-    <wire from="(180,30)" to="(180,50)"/>
-    <wire from="(180,50)" to="(180,90)"/>
-    <wire from="(180,50)" to="(190,50)"/>
-    <wire from="(180,90)" to="(180,130)"/>
-    <wire from="(180,90)" to="(190,90)"/>
+    <wire from="(150,130)" to="(150,170)"/>
+    <wire from="(150,130)" to="(190,130)"/>
+    <wire from="(150,170)" to="(190,170)"/>
+    <wire from="(150,50)" to="(150,90)"/>
+    <wire from="(150,50)" to="(190,50)"/>
+    <wire from="(150,90)" to="(150,130)"/>
+    <wire from="(150,90)" to="(190,90)"/>
     <wire from="(230,100)" to="(250,100)"/>
     <wire from="(230,140)" to="(260,140)"/>
     <wire from="(230,180)" to="(270,180)"/>
@@ -375,8 +375,6 @@
     <wire from="(380,310)" to="(400,310)"/>
     <wire from="(380,350)" to="(380,450)"/>
     <wire from="(380,350)" to="(400,350)"/>
-    <wire from="(440,330)" to="(460,330)"/>
-    <wire from="(460,60)" to="(460,330)"/>
-    <wire from="(460,60)" to="(480,60)"/>
+    <wire from="(440,330)" to="(450,330)"/>
   </circuit>
 </project>

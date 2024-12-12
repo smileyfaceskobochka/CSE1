@@ -64,7 +64,7 @@ void input_limits(double *a, double *b) {
 void input_rectangles(int *n) {
     printf("Введите количество прямоугольников: ");
     scanf("%d", n);
-    if (*n <= 0) {
+    if (*n <= 1) {
         printf("Количество прямоугольников должно быть положительным.\n");
         *n = 0;
     }
@@ -139,6 +139,7 @@ int main() {
                     printf("Площадь: %.6lf\n", area);
                 }
                 wait_and_return();
+                limits, rect = 0;
                 break;
 
             case 3: // Найти погрешность
@@ -158,6 +159,7 @@ int main() {
 integrate_exact(a, b), integrate(a, b, n));
                 }
                 wait_and_return();
+                limits, rect = 0;
                 break;
 
             case 4: // Завершить
