@@ -84,7 +84,6 @@ int main() {
         nodes[i] = new(prob);
     }
 
-    bubbleSort(nodes, n);
     Node* root = buildTree(nodes, n);
     int arr[100];
     int top = 0;

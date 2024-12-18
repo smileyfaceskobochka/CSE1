@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  16 DEC 2024 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  19 DEC 2024 02:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -781,28 +781,51 @@ File: pics/flowchart_1.png Graphic file (type png)
 <use pics/flowchart_1.png>
 Package pdftex.def Info: pics/flowchart_1.png  used on input line 125.
 (pdftex.def)             Requested size: 403.98518pt x 510.86923pt.
+<pics/flowchart_2_p1.png, id=20, 2387.92125pt x 3197.9475pt>
+File: pics/flowchart_2_p1.png Graphic file (type png)
+<use pics/flowchart_2_p1.png>
+Package pdftex.def Info: pics/flowchart_2_p1.png  used on input line 130.
+(pdftex.def)             Requested size: 457.75423pt x 613.03893pt.
+<pics/flowchart_2_p2.png, id=21, 1111.15125pt x 2869.72125pt>
+File: pics/flowchart_2_p2.png Graphic file (type png)
+<use pics/flowchart_2_p2.png>
+Package pdftex.def Info: pics/flowchart_2_p2.png  used on input line 135.
+(pdftex.def)             Requested size: 184.6206pt x 476.8092pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 [3 <./pics/flowchart_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
+
+LaTeX Warning: Text page 4 contains only floats.
+
+
+
+[4 <./pics/flowchart_2_p1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 141--145
 
  []
 
 
 
-[4]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 141.
+[5 <./pics/flowchart_2_p2.png>]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 149.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-
-[5]
 
 [6]
 
 [7]
 
-[8] (./lab6.aux)
+[8]
+
+[9] (./lab6.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -811,18 +834,18 @@ Package rerunfilecheck Info: File `lab6.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18444 strings out of 473579
- 289803 string characters out of 5722203
+ 18461 strings out of 473579
+ 290259 string characters out of 5722203
  832562 words of memory out of 5000000
- 41044 multiletter control sequences out of 15000+600000
+ 41058 multiletter control sequences out of 15000+600000
  566418 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,7n,107p,3304b,627s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on lab6.pdf (8 pages, 277865 bytes).
+Output written on lab6.pdf (9 pages, 536845 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

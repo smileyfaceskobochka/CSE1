@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1734346578.82131 "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab6/lab6.tex" "lab6.pdf" "lab6" 1734346582.28604 0
+["pdflatex"] 1734563289.87586 "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab6/lab6.tex" "lab6.pdf" "lab6" 1734563292.27343 0
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1728330280 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm" 1728378575 3220 0e417eaf233b160335902e97259a6c77 ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1728388177 3240 c2435f2b5cd66d4930bc29b8df87967e ""
@@ -138,13 +138,15 @@
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728329813 5520513 fa75b860fe65a553d5f8f3a0827fe4df ""
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728329949 3326072 dc2bcc73f764b4477a985f73611de3ac ""
   "c:/Users/livin/.vscode/texlive/2024/texmf.cnf" 1728329792 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab6/lab6.tex" 1734100356 7226 590603562e51b5433d3f858c5a93a6b8 ""
+  "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab6/lab6.tex" 1734563286 7662 afa72fa9e2e5c77b0fcfd2d9178ec197 ""
   "code/1.c" 1733945672 500 73bd3a4b5deb3b0da877f4490de019bf ""
-  "code/2.c" 1734346577 2129 2c3a3dd8df18f6fa6fa4b85ceb771138 ""
-  "lab6.aux" 1734346582 300 b5a1c3086257989c180c312edde7fddb "pdflatex"
-  "lab6.out" 1734346580 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "lab6.tex" 1734100356 7226 590603562e51b5433d3f858c5a93a6b8 ""
+  "code/2.c" 1734562002 2102 a6274fba1ba64b8d3af6ee73c162a4b1 ""
+  "lab6.aux" 1734563292 300 af27820f9149f6e8cdc72628ab1fd883 "pdflatex"
+  "lab6.out" 1734563290 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "lab6.tex" 1734563286 7662 afa72fa9e2e5c77b0fcfd2d9178ec197 ""
   "pics/flowchart_1.png" 1734100182 564343 08934e26a14e07683f7316a53b711a73 ""
+  "pics/flowchart_2_p1.png" 1734563020 486457 d2ce7a116f3847d8ee46008a4910b566 ""
+  "pics/flowchart_2_p2.png" 1734563050 191539 95f8bde6d57e95baa9436e9fe4cc8939 ""
   (generated)
   "lab6.aux"
   "lab6.log"
