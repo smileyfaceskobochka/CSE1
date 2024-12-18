@@ -77,7 +77,6 @@ void freeTree(Node* root) {
 int main() {
     int n;
     scanf("%d", &n);
-    printf("----------\n");
     Node* nodes[n];
     for (int i = 0; i < n; i++) {
         float prob;

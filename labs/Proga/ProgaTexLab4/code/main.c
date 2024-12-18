@@ -17,6 +17,7 @@ typedef struct LList {
     Node* tail;
 } LList;
 
+// Создает новый узел
 Node* createNode(char val) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->val = val;
@@ -25,6 +26,7 @@ Node* createNode(char val) {
     return newNode;
 }
 
+// Создает новый список
 LList* createList() {
     LList* list = (LList*)malloc(sizeof(LList));
     list->head = NULL;
@@ -45,7 +47,7 @@ void append(LList* list, char val) {
     }
 }
 
-// Убрать последний символ
+// Удаляет последний символ из списка
 void remLast(LList* list) {
     if (list->tail) {
         Node* temp = list->tail;
@@ -60,7 +62,7 @@ void remLast(LList* list) {
     }
 }
 
-// Список -> строка
+// Преобразует список в строку
 char* toString(LList* list) {
     int length = 0;
     Node* current = list->head;
@@ -79,31 +81,29 @@ char* toString(LList* list) {
     return res;
 }
 
-// Обработка последовательности
+// Обрабатывает последовательность
 char* processSeq(const char* seq) {
     LList* list = createList();
-    char buffer[3];
     int i = 0;
 
     while (seq[i] != '\0') {
         if (seq[i] == 'C' && seq[i + 1] == 'h') {
-            remLast(list);
-            i += 2; // Ch
-        } else if (seq[i] == '.') {
-            break;
+            remLast(list); // Удалить последний символ из списка
+            i += 2; // Пропустить "Ch"
         } else {
-            append(list, seq[i]);
+            append(list, seq[i]); // Добавить текущий символ в список
             i++;
         }
     }
 
     char* res = toString(list);
-    
+
+    // Освобождаем память
     while (list->head) {
         remLast(list);
     }
     free(list);
-    
+
     return res;
 }
 
@@ -128,21 +128,30 @@ int getLine (char* in, size_t size) {
 int main() {
     char inSeq[101];
     int input;
-    input = getLine (inSeq, sizeof(inSeq));
 
-    if (input == NI) {
-        printf ("\nНет ввода :(\n");
-        return 1;
+    while (1) { // Бесконечный цикл для консольного приложения
+        printf("Введите последовательность (оканчивающуюся точкой, введите * для выхода): ");
+        input = getLine(inSeq, sizeof(inSeq));
+
+        if (input == NI) {
+            printf ("\nНет ввода :(\n");
+            continue;
+        }
+
+        if (input == LONG) {
+            printf ("Последовательность слишком длинная [%s]\nЛимит символов: 100\n", inSeq);
+            continue;
+        }
+
+        if (strcmp(inSeq, "*") == 0) { // Условие выхода
+            printf("Выход из программы.\n");
+            break;
+        }
+
+        char* outSeq = processSeq(inSeq);
+        printf("Результат: %s\n", outSeq);
+        free(outSeq);
     }
 
-    if (input == LONG) {
-        printf ("Последовательность слишком длинная [%s]\n\
-Лимит символов: %d", inSeq, strlen(inSeq));
-        return 1;
-    }
-
-    char* outSeq = processSeq(inSeq);
-    printf("%s\n", outSeq);
-    free(outSeq);
     return 0;
 }

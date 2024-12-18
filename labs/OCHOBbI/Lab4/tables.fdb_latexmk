@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1733412483.59035 "c:/Users/livin/Desktop/CompSci/labs/OCHOBbI/Lab4/tables.tex" "tables.pdf" "tables" 1733412485.10117 0
+["pdflatex"] 1734433171.94285 "c:/Users/livin/Desktop/CompSci/labs/OCHOBbI/Lab4/tables.tex" "tables.pdf" "tables" 1734433173.45102 0
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1728330277 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/lasi1000.tfm" 1733411379 3508 f18f005668432755c60786cecb7d9989 ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/lasi1200.tfm" 1733411382 3560 2e2c5c9bd3b06082b79fc70dc123c12e ""
@@ -114,9 +114,9 @@
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728329813 5520513 fa75b860fe65a553d5f8f3a0827fe4df ""
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728329949 3326072 dc2bcc73f764b4477a985f73611de3ac ""
   "c:/Users/livin/.vscode/texlive/2024/texmf.cnf" 1728329792 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/livin/Desktop/CompSci/labs/OCHOBbI/Lab4/tables.tex" 1733412481 8582 853c4ce5b23d4d274c239f7364d6eb14 ""
-  "tables.aux" 1733412484 20063 db458dc7f86b86231e666d438cd6b1f6 "pdflatex"
-  "tables.tex" 1733412481 8582 853c4ce5b23d4d274c239f7364d6eb14 ""
+  "c:/Users/livin/Desktop/CompSci/labs/OCHOBbI/Lab4/tables.tex" 1734433171 8582 853c4ce5b23d4d274c239f7364d6eb14 ""
+  "tables.aux" 1734433173 20063 db458dc7f86b86231e666d438cd6b1f6 "pdflatex"
+  "tables.tex" 1734433171 8582 853c4ce5b23d4d274c239f7364d6eb14 ""
   (generated)
   "tables.aux"
   "tables.log"

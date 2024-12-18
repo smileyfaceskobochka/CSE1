@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1733431807.29952 "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab4/compscilab4.tex" "compscilab4.pdf" "compscilab4" 1733431810.35576 0
+["pdflatex"] 1734450226.78836 "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab4/compscilab4.tex" "compscilab4.pdf" "compscilab4" 1734450230.04275 0
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1728330280 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm" 1728378575 3220 0e417eaf233b160335902e97259a6c77 ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1728388177 3240 c2435f2b5cd66d4930bc29b8df87967e ""
@@ -136,13 +136,13 @@
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728329813 5520513 fa75b860fe65a553d5f8f3a0827fe4df ""
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728329949 3326072 dc2bcc73f764b4477a985f73611de3ac ""
   "c:/Users/livin/.vscode/texlive/2024/texmf.cnf" 1728329792 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab4/compscilab4.tex" 1733431803 11200 eb9737fbc6c259b22c2d97dd987034b4 ""
-  "code/main.c" 1733428930 2747 9043e8e23a552be2846696be9f7ef748 ""
-  "compscilab4.aux" 1733431810 300 af27820f9149f6e8cdc72628ab1fd883 "pdflatex"
-  "compscilab4.out" 1733431808 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "compscilab4.tex" 1733431803 11200 eb9737fbc6c259b22c2d97dd987034b4 ""
-  "pics/flowchart_p1.png" 1733426374 763864 342f9e5a3a118d8e4af4dcc5a34a9924 ""
-  "pics/flowchart_p2.png" 1733426519 818219 98f11f1cac22e897a150d386136f0228 ""
+  "c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab4/compscilab4.tex" 1734450226 10961 582521d9db4e864cd1ca453492fc987e ""
+  "code/main.c" 1734448862 2871 db924d802afe82ce3d753513ebcfea74 ""
+  "compscilab4.aux" 1734450229 301 45c3f8bd22cdbc529c7ddaf677237c3d "pdflatex"
+  "compscilab4.out" 1734450227 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "compscilab4.tex" 1734450226 10961 582521d9db4e864cd1ca453492fc987e ""
+  "pics/flowchart_p1.png" 1734449277 896347 6a949d9d427ce69ec9ab9e0aede0e712 ""
+  "pics/flowchart_p2.png" 1734449860 847874 b15e3b2ccca6e8033d9b70a232fac540 ""
   (generated)
   "compscilab4.aux"
   "compscilab4.log"

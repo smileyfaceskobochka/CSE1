@@ -10,7 +10,7 @@ char* zero(float x, int n, int m) {
     } u;
     u.f = x;
     // Знак
-    int sign = (u.i >> 31) & 1;
+    int sign = ((u.i >> 31) & 1) != 0;
     res[0] = sign ? '1' : '0';
     int e = n - 1 - m;
     // Извлечение экспоненты
@@ -25,7 +25,7 @@ char* zero(float x, int n, int m) {
     }
     // Экспонента
     for (int i = 0; i < e; i++) {
-        res[1 + i] = (exp & (1 << (e - 1 - i))) ? '1' : '0';
+        res[1 + i] = ((exp & (1 << (e - 1 - i))) != 0) ? '1' : '0';
     }
     // Мантисса
     unsigned int mantissa = u.i & 0x7FFFFF; // Последние 23 бита
@@ -33,7 +33,7 @@ char* zero(float x, int n, int m) {
         mantissa |= (1 << 23);
     }
     for (int i = 0; i < m; i++) {
-        res[1 + e + i] = (mantissa & (1 << (23 - 1 - i))) ? '1' : '0';
+        res[1 + e + i] = ((mantissa & (1 << (23 - 1 - i))) != 0) ? '1' : '0';
     }
     res[n] = '\0';
     return res;
@@ -48,7 +48,7 @@ char* one(float x, int n, int m) {
     } u;
     u.f = x;
     // Знак
-    int sign = (u.i >> 31) & 1;
+    int sign = ((u.i >> 31) & 1) != 0;
     res[0] = sign ? '1' : '0';
     // Мантисса
     unsigned int mantissa = u.i & 0x7FFFFF;
@@ -56,15 +56,15 @@ char* one(float x, int n, int m) {
         mantissa |= (1 << 23);
     }
     for (int i = 0; i < m; i++) {
-        res[1 + i] = (mantissa & (1 << (23 - i))) ? '1' : '0';
+        res[1 + i] = ((mantissa & (1 << (23 - i))) != 0) ? '1' : '0';
     }
     // Порядок
     int e = n - m;
     int exp = (u.i >> 23) & 0xFF;
     int p = exp - 127;
-    res[m + 1] = p + 1 < 0 ? '1' : '0';
+    res[m + 1] = (p + 1 < 0) ? '1' : '0';
     for (int i = m + 2; i < n; i++) {
-        res[i] = (abs(p + 1) >> (n - i - 1)) & 1 ? '1' : '0';
+        res[i] = (((abs(p + 1) >> (n - i - 1)) & 1) != 0) ? '1' : '0';
     }
     res[n] = '\0';
     return res;
@@ -79,7 +79,7 @@ char* two(float x, int n, int m) {
     } u;
     u.f = x;
     // Знак
-    int sign = (u.i >> 31) & 1;
+    int sign = ((u.i >> 31) & 1) != 0;
     res[0] = sign ? '1' : '0';
     // Мантисса
     unsigned int mantissa = u.i & 0x7FFFFF;
@@ -87,7 +87,7 @@ char* two(float x, int n, int m) {
         mantissa |= (1 << 23);
     }
     for (int i = 0; i < m + 1; i++) {
-        res[1 + i] = (mantissa & (1 << (23 - i))) ? '1' : '0';
+        res[1 + i] = ((mantissa & (1 << (23 - i))) != 0) ? '1' : '0';
     }
     // Хар-ка
     int e = n - m - 1;
@@ -95,7 +95,7 @@ char* two(float x, int n, int m) {
     int p = exp - 127;
     int charc = p + 1 + (1 << (e - 1));
     for (int i = m; i < n; i++) {
-        res[i] = (charc >> (n - i - 1)) & 1 ? '1' : '0';
+        res[i] = (((charc >> (n - i - 1)) & 1) != 0) ? '1' : '0';
     }
     res[n] = '\0';
     return res;

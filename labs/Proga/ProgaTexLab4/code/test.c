@@ -1,51 +1,90 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
-#define OK       0
-#define NO_INPUT 1
-#define TOO_LONG 2
+// Узел двунаправленного списка
+typedef struct Node {
+    char data;
+    struct Node* prev;
+    struct Node* next;
+} Node;
 
-int getLine (char *prmpt, char *buff, size_t sz) {
-    int ch, extra;
-
-    if (prmpt != NULL) {
-        printf ("%s", prmpt);
-        fflush (stdout);
-    }
-    if (fgets (buff, sz, stdin) == NULL)
-        return NO_INPUT;
-
-    // If it was too long, there'll be no newline. In that case, we flush
-    // to end of line so that excess doesn't affect the next call.
-    if (buff[strlen(buff)-1] != '\n') {
-        extra = 0;
-        while (((ch = getchar()) != '\n') && (ch != EOF))
-            extra = 1;
-        return (extra == 1) ? TOO_LONG : OK;
-    }
-
-    // Otherwise remove newline and give string back to caller.
-    buff[strlen(buff)-1] = '\0';
-    return OK;
+// Создание нового узла
+Node* createNode(char data) {
+    Node* newNode = (Node*)malloc(sizeof(Node));
+    newNode->data = data;
+    newNode->prev = NULL;
+    newNode->next = NULL;
+    return newNode;
 }
 
-int main (void) {
-    int rc;
-    char buff[10];
+// Удаление последнего узла
+void deleteLastNode(Node** tail) {
+    if (*tail == NULL) return;
 
-    rc = getLine ("", buff, sizeof(buff));
-    if (rc == NO_INPUT) {
-        // Extra NL since my system doesn't output that on EOF.
-        printf ("\nNo input\n");
-        return 1;
+    Node* temp = *tail;
+    *tail = (*tail)->prev;
+    if (*tail) {
+        (*tail)->next = NULL;
+    }
+    free(temp);
+}
+
+// Добавление узла в конец
+void appendNode(Node** head, Node** tail, char data) {
+    Node* newNode = createNode(data);
+    if (*tail == NULL) {
+        *head = *tail = newNode;
+    } else {
+        (*tail)->next = newNode;
+        newNode->prev = *tail;
+        *tail = newNode;
+    }
+}
+
+// Печать списка
+void printList(Node* head) {
+    Node* temp = head;
+    while (temp != NULL) {
+        printf("%c", temp->data);
+        temp = temp->next;
+    }
+    printf("\n");
+}
+
+// Освобождение памяти списка
+void freeList(Node* head) {
+    while (head != NULL) {
+        Node* temp = head;
+        head = head->next;
+        free(temp);
+    }
+}
+
+int main() {
+    char input[100];
+    printf("Enter the sequence (end with '.'): ");
+    scanf("%s", input);
+
+    Node* head = NULL;
+    Node* tail = NULL;
+
+    for (int i = 0; input[i] != '.'; ) {
+        if (input[i] == 'C' && input[i + 1] == 'h') { // Проверяем "Ch"
+            deleteLastNode(&tail);
+            if (tail == NULL) {
+                head = NULL;
+            }
+            i += 2; // Пропускаем оба символа "Ch"
+        } else {
+            appendNode(&head, &tail, input[i]);
+            i++;
+        }
     }
 
-    if (rc == TOO_LONG) {
-        printf ("Input too long [%s]\n", buff);
-        return 1;
-    }
+    printf("Resulting sequence: ");
+    printList(head);
 
-    printf ("%s\n", buff);
-
+    freeList(head);
     return 0;
 }

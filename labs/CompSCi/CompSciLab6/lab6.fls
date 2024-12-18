@@ -257,6 +257,11 @@ INPUT c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm
 INPUT c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 INPUT c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm
+INPUT ./pics/flowchart_1.png
+INPUT ./pics/flowchart_1.png
+INPUT ./pics/flowchart_1.png
+INPUT ./pics/flowchart_1.png
+INPUT ./pics/flowchart_1.png
 INPUT c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm
 INPUT c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 INPUT c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
