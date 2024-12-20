@@ -222,8 +222,12 @@
     <comp lib="0" loc="(270,530)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
-    <comp lib="0" loc="(640,140)" name="Pin">
-      <a name="appearance" val="NewPins"/>
+    <comp lib="0" loc="(600,140)" name="Constant">
+      <a name="value" val="0x3"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(600,420)" name="Constant">
+      <a name="value" val="0x5"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(640,160)" name="Splitter">
@@ -235,10 +239,6 @@
       <a name="facing" val="south"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="0" loc="(640,420)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(640,440)" name="Splitter">
       <a name="appear" val="right"/>
@@ -391,9 +391,11 @@
     <wire from="(570,220)" to="(570,250)"/>
     <wire from="(570,500)" to="(570,530)"/>
     <wire from="(580,370)" to="(580,380)"/>
+    <wire from="(600,140)" to="(640,140)"/>
     <wire from="(600,180)" to="(600,190)"/>
     <wire from="(600,300)" to="(600,310)"/>
     <wire from="(600,310)" to="(600,320)"/>
+    <wire from="(600,420)" to="(640,420)"/>
     <wire from="(600,460)" to="(600,470)"/>
     <wire from="(600,580)" to="(600,590)"/>
     <wire from="(600,590)" to="(650,590)"/>

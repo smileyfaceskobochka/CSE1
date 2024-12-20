@@ -59,15 +59,20 @@
       <circ-port dir="in" pin="150,40" x="50" y="70"/>
       <circ-port dir="in" pin="150,400" x="50" y="170"/>
       <circ-port dir="in" pin="150,420" x="50" y="180"/>
+      <circ-port dir="in" pin="610,160" x="50" y="110"/>
+      <circ-port dir="in" pin="610,180" x="50" y="190"/>
+      <circ-port dir="in" pin="610,200" x="50" y="200"/>
       <circ-port dir="out" pin="370,120" x="80" y="90"/>
       <circ-port dir="out" pin="370,40" x="80" y="60"/>
       <circ-port dir="out" pin="380,300" x="80" y="100"/>
+      <circ-port dir="out" pin="390,380" x="80" y="130"/>
+      <circ-port dir="out" pin="390,420" x="80" y="140"/>
       <circ-port dir="out" pin="410,100" x="80" y="80"/>
       <circ-port dir="out" pin="410,20" x="80" y="70"/>
       <circ-port dir="out" pin="410,280" x="80" y="110"/>
-      <circ-port dir="out" pin="410,380" x="80" y="130"/>
-      <circ-port dir="out" pin="410,420" x="80" y="140"/>
       <circ-port dir="out" pin="440,260" x="80" y="120"/>
+      <circ-port dir="out" pin="830,180" x="80" y="160"/>
+      <circ-port dir="out" pin="850,160" x="80" y="150"/>
     </appear>
     <comp lib="0" loc="(150,100)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -142,6 +147,18 @@
       <a name="label" val="Cout3"/>
       <a name="output" val="true"/>
     </comp>
+    <comp lib="0" loc="(390,380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(390,420)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="0" loc="(410,100)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -163,28 +180,42 @@
       <a name="label" val="BitSum"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(410,380)" name="Pin">
+    <comp lib="0" loc="(440,260)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(610,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(610,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(610,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(830,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(850,160)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
     </comp>
-    <comp lib="0" loc="(410,420)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-    </comp>
-    <comp lib="0" loc="(440,260)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-    </comp>
     <comp loc="(370,100)" name="hex_full_adder"/>
     <comp loc="(370,20)" name="four_bit_half_adder"/>
     <comp loc="(370,200)" name="half_adder"/>
     <comp loc="(370,280)" name="full_adder"/>
     <comp loc="(370,380)" name="hex_CLU_adder"/>
+    <comp loc="(830,160)" name="hex_full_adder"/>
     <wire from="(150,260)" to="(150,280)"/>
     <wire from="(150,260)" to="(370,260)"/>
     <wire from="(370,100)" to="(410,100)"/>
@@ -193,11 +224,12 @@
     <wire from="(370,220)" to="(370,260)"/>
     <wire from="(370,280)" to="(410,280)"/>
     <wire from="(370,300)" to="(380,300)"/>
-    <wire from="(370,380)" to="(410,380)"/>
+    <wire from="(370,380)" to="(390,380)"/>
     <wire from="(370,400)" to="(380,400)"/>
-    <wire from="(370,420)" to="(410,420)"/>
+    <wire from="(370,420)" to="(390,420)"/>
     <wire from="(380,200)" to="(380,260)"/>
     <wire from="(380,260)" to="(440,260)"/>
+    <wire from="(830,160)" to="(850,160)"/>
   </circuit>
   <circuit name="full_adder">
     <a name="appearance" val="logisim_evolution"/>
@@ -567,7 +599,7 @@
       <a name="fanout" val="4"/>
       <a name="incoming" val="16"/>
     </comp>
-    <comp lib="6" loc="(83,336)" name="Text">
+    <comp lib="6" loc="(80,335)" name="Text">
       <a name="text" val="14 ticks"/>
     </comp>
     <comp loc="(620,280)" name="four_bit_full_adder"/>
@@ -1110,7 +1142,7 @@
       <a name="label" val="GG"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(840,540)" name="Pin">
+    <comp lib="0" loc="(860,400)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="Cout"/>
@@ -1220,7 +1252,8 @@
     <wire from="(770,310)" to="(840,310)"/>
     <wire from="(780,210)" to="(780,270)"/>
     <wire from="(780,210)" to="(960,210)"/>
-    <wire from="(840,310)" to="(840,540)"/>
+    <wire from="(840,310)" to="(840,400)"/>
+    <wire from="(840,400)" to="(860,400)"/>
     <wire from="(850,290)" to="(850,330)"/>
     <wire from="(850,330)" to="(970,330)"/>
     <wire from="(950,250)" to="(960,250)"/>
@@ -1325,7 +1358,7 @@
     </comp>
     <comp lib="0" loc="(310,690)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="O2"/>
+      <a name="label" val="O3"/>
     </comp>
     <comp lib="0" loc="(310,730)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1372,11 +1405,11 @@
       <a name="facing" val="east"/>
       <a name="label" val="Cin"/>
     </comp>
-    <comp lib="0" loc="(850,100)" name="Pin">
+    <comp lib="0" loc="(830,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="Cin"/>
     </comp>
-    <comp lib="0" loc="(850,100)" name="Tunnel">
+    <comp lib="0" loc="(830,220)" name="Tunnel">
       <a name="label" val="Cin"/>
     </comp>
     <comp lib="0" loc="(870,270)" name="Pin">
@@ -1472,9 +1505,6 @@
       <a name="facing" val="east"/>
       <a name="label" val="S1"/>
       <a name="width" val="4"/>
-    </comp>
-    <comp lib="6" loc="(455,205)" name="Text">
-      <a name="text" val="14 ticks"/>
     </comp>
     <comp loc="(1020,460)" name="CLU"/>
     <comp loc="(560,330)" name="four_bit_CLU_adder"/>
