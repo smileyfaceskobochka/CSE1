@@ -62,7 +62,6 @@
     </comp>
     <comp lib="0" loc="(300,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="Switch"/>
     </comp>
     <comp lib="0" loc="(490,210)" name="Splitter">
       <a name="facing" val="west"/>
