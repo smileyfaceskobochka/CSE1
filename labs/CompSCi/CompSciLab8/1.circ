@@ -18,7 +18,7 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <main name="main"/>
+  <main name="TT_Clock1"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -51,12 +51,6 @@
     <tool lib="4" name="D Flip-Flop"/>
     <tool lib="4" name="Register"/>
   </toolbar>
-  <circuit name="main">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
-  </circuit>
   <circuit name="TT_Clock1">
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="TT_Clock1"/>
@@ -140,15 +134,19 @@
     </comp>
     <comp lib="4" loc="(390,170)" name="T Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="Q0"/>
     </comp>
     <comp lib="4" loc="(490,170)" name="T Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="Q1"/>
     </comp>
     <comp lib="4" loc="(590,170)" name="T Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="Q2"/>
     </comp>
     <comp lib="4" loc="(690,170)" name="T Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="Q3"/>
     </comp>
     <comp lib="5" loc="(800,70)" name="Hex Digit Display"/>
     <wire from="(300,220)" to="(380,220)"/>

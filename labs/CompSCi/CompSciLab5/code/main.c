@@ -10,8 +10,8 @@ char* zero(float x, int n, int m) {
     } u;
     u.f = x;
     // Знак
-    int sign = ((u.i >> 31) & 1) != 0;
-    res[0] = sign ? '1' : '0';
+    int sign = (u.i >> 31);
+    res[0] = sign;
     int e = n - 1 - m;
     // Извлечение экспоненты
     int raw_exp = (u.i >> 23) & 0xFF; // 8 бит для экспоненты
@@ -37,7 +37,7 @@ char* zero(float x, int n, int m) {
     }
     res[n] = '\0';
     return res;
-}
+} //+
 
 char* one(float x, int n, int m) {
     char* res = malloc(n + 1);
@@ -48,8 +48,8 @@ char* one(float x, int n, int m) {
     } u;
     u.f = x;
     // Знак
-    int sign = ((u.i >> 31) & 1) != 0;
-    res[0] = sign ? '1' : '0';
+    int sign = (u.i >> 31);
+    res[0] = sign;
     // Мантисса
     unsigned int mantissa = u.i & 0x7FFFFF;
     if ((u.i >> 23) & 0xFF) {
@@ -68,7 +68,7 @@ char* one(float x, int n, int m) {
     }
     res[n] = '\0';
     return res;
-}
+}//+
 
 char* two(float x, int n, int m) {
     char* res = malloc(n + 1);
@@ -79,8 +79,8 @@ char* two(float x, int n, int m) {
     } u;
     u.f = x;
     // Знак
-    int sign = ((u.i >> 31) & 1) != 0;
-    res[0] = sign ? '1' : '0';
+    int sign = (u.i >> 31);
+    res[0] = sign;
     // Мантисса
     unsigned int mantissa = u.i & 0x7FFFFF;
     if ((u.i >> 23) & 0xFF) {

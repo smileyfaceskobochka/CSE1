@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  20 DEC 2024 00:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.7)  20 DEC 2024 03:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab5/compscilab5.tex
-(c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab5/compscilab5.tex
+**c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab7/report.tex
+(c:/Users/livin/Desktop/CompSci/labs/CompSCi/CompSciLab7/report.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
 (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -31,9 +31,46 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen142
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2aenc.def
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks18
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/10/05 v24.11 The Babel package
+\babel@savecnt=\count271
+\U@D=\dimen151
+\l@unhyphenated=\language89
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count272
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/babel-russian/russianb.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+
+
+Package babel Warning: No Cyrillic font encoding has been loaded so far.
+(babel)                A font encoding should be declared before babel.
+(babel)                Default `T2A' encoding will be loaded  on input line 78.
+
+(c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2aenc.def
 File: t2aenc.def 2023/11/07 v1.0k Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
@@ -237,46 +274,7 @@ File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+FB04 (decimal 64260)
    defining Unicode char U+FB05 (decimal 64261)
    defining Unicode char U+FB06 (decimal 64262)
-)) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/base/tuenc.def
-File: tuenc.def 2021/04/29 v2.0v Standard LaTeX file
-
-
-Package fontenc Warning: TU encoding is only available with XeTeX and LuaTeX.
-(fontenc)                Defaulting to T1 encoding.
-
-)) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count268
-\Gm@cntv=\count269
-\c@Gm@tempcnt=\count270
-\Gm@bindingoffset=\dimen143
-\Gm@wd@mp=\dimen144
-\Gm@odd@mp=\dimen145
-\Gm@even@mp=\dimen146
-\Gm@layoutwidth=\dimen147
-\Gm@layoutheight=\dimen148
-\Gm@layouthoffset=\dimen149
-\Gm@layoutvoffset=\dimen150
-\Gm@dimlist=\toks18
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/10/05 v24.11 The Babel package
-\babel@savecnt=\count271
-\U@D=\dimen151
-\l@unhyphenated=\language89
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count272
- (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/babel-russian/russianb.ldf
-File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
-Language: russian 2020/09/09 1.3k Russian support for the Babel system
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
 )) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/babel/locale/ru/babel-russian.tex
@@ -641,46 +639,317 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen269
 \titlewidthlast=\dimen270
 \titlewidthfirst=\dimen271
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks39
-\verbatim@line=\toks40
-\verbatim@in@stream=\read4
-) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count332
-\FV@InFile=\read5
-\FV@TabBox=\box61
-\c@FancyVerbLine=\count333
-\FV@StepNumber=\count334
-\FV@OutFile=\write4
-) (./compscilab5.aux
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/nicematrix/nicematrix.sty (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen272
+\pgfutil@tempdimb=\dimen273
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box61
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks42
+))
+\pgf@x=\dimen274
+\pgf@y=\dimen275
+\pgf@xa=\dimen276
+\pgf@ya=\dimen277
+\pgf@xb=\dimen278
+\pgf@yb=\dimen279
+\pgf@xc=\dimen280
+\pgf@yc=\dimen281
+\pgf@xd=\dimen282
+\pgf@yd=\dimen283
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count332
+\c@pgf@countb=\count333
+\c@pgf@countc=\count334
+\c@pgf@countd=\count335
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+\pgf@sys@id@count=\count336
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count337
+\pgfsyssoftpath@bigbuffer@items=\count338
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen284
+\pgfmath@count=\count339
+\pgfmath@box=\box62
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count340
+)) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen285
+\pgf@picmaxx=\dimen286
+\pgf@picminy=\dimen287
+\pgf@picmaxy=\dimen288
+\pgf@pathminx=\dimen289
+\pgf@pathmaxx=\dimen290
+\pgf@pathminy=\dimen291
+\pgf@pathmaxy=\dimen292
+\pgf@xx=\dimen293
+\pgf@xy=\dimen294
+\pgf@yx=\dimen295
+\pgf@yy=\dimen296
+\pgf@zx=\dimen297
+\pgf@zy=\dimen298
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen299
+\pgf@path@lasty=\dimen300
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen301
+\pgf@shorten@start@additional=\dimen302
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count341
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen303
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen304
+\pgf@pt@y=\dimen305
+\pgf@pt@temp=\dimen306
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen307
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen308
+\pgf@sys@shading@range@num=\count342
+\pgf@shadingcount=\count343
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box66
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box67
+)
+Package: nicematrix 2024/08/22 v6.28c Enhanced arrays with the help of PGF/TikZ
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen309
+\ar@mcellbox=\box68
+\extrarowheight=\dimen310
+\NC@list=\toks49
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box69
+)
+\g__nicematrix_env_int=\count344
+\g__nicematrix_NiceMatrixBlock_int=\count345
+\g__nicematrix_notes_caption_int=\count346
+\l__nicematrix_columns_width_dim=\dimen311
+\l__nicematrix_col_width_dim=\dimen312
+\g__nicematrix_row_total_int=\count347
+\g__nicematrix_col_total_int=\count348
+\g__nicematrix_last_row_node_int=\count349
+\l__nicematrix_key_nb_rows_int=\count350
+\g__nicematrix_blocks_wd_dim=\dimen313
+\g__nicematrix_blocks_ht_dim=\dimen314
+\g__nicematrix_blocks_dp_dim=\dimen315
+\l__nicematrix_width_dim=\dimen316
+\l__nicematrix_tabular_width_dim=\dimen317
+\l__nicematrix_rule_width_dim=\dimen318
+\l__nicematrix_old_iRow_int=\count351
+\l__nicematrix_old_jCol_int=\count352
+\g__nicematrix_total_X_weight_int=\count353
+\l__nicematrix_X_columns_dim=\dimen319
+\l__nicematrix_x_initial_dim=\dimen320
+\l__nicematrix_y_initial_dim=\dimen321
+\l__nicematrix_x_final_dim=\dimen322
+\l__nicematrix_y_final_dim=\dimen323
+\l__nicematrix_tmpc_dim=\dimen324
+\l__nicematrix_tmpd_dim=\dimen325
+\g__nicematrix_dp_row_zero_dim=\dimen326
+\g__nicematrix_ht_row_zero_dim=\dimen327
+\g__nicematrix_ht_row_one_dim=\dimen328
+\g__nicematrix_dp_ante_last_row_dim=\dimen329
+\g__nicematrix_ht_last_row_dim=\dimen330
+\g__nicematrix_dp_last_row_dim=\dimen331
+\g__nicematrix_width_last_col_dim=\dimen332
+\g__nicematrix_width_first_col_dim=\dimen333
+\l__nicematrix_row_min_int=\count354
+\l__nicematrix_row_max_int=\count355
+\l__nicematrix_col_min_int=\count356
+\l__nicematrix_col_max_int=\count357
+\l__nicematrix_start_int=\count358
+\l__nicematrix_end_int=\count359
+\l__nicematrix_local_start_int=\count360
+\l__nicematrix_local_end_int=\count361
+\g__nicematrix_static_num_of_col_int=\count362
+\l__nicematrix_rounded_corners_dim=\dimen334
+\l__nicematrix_tab_rounded_corners_dim=\dimen335
+\l__nicematrix_offset_dim=\dimen336
+\l__nicematrix_line_width_dim=\dimen337
+\g__nicematrix_block_box_int=\count363
+\l__nicematrix_submatrix_extra_height_dim=\dimen338
+\l__nicematrix_submatrix_left_xshift_dim=\dimen339
+\l__nicematrix_submatrix_right_xshift_dim=\dimen340
+\l__nicematrix_first_row_int=\count364
+\l__nicematrix_first_col_int=\count365
+\l__nicematrix_last_row_int=\count366
+\l__nicematrix_last_col_int=\count367
+\c@tabularnote=\count368
+\g__nicematrix_tabularnote_int=\count369
+\c@nicematrix_draft=\count370
+\l__nicematrix_cell_space_top_limit_dim=\dimen341
+\l__nicematrix_cell_space_bottom_limit_dim=\dimen342
+\l__nicematrix_xdots_inter_dim=\dimen343
+\l__nicematrix_xdots_shorten_start_dim=\dimen344
+\l__nicematrix_xdots_shorten_end_dim=\dimen345
+\l__nicematrix_xdots_radius_dim=\dimen346
+\l__nicematrix_notes_above_space_dim=\dimen347
+\l__nicematrix_left_margin_dim=\dimen348
+\l__nicematrix_right_margin_dim=\dimen349
+\l__nicematrix_extra_left_margin_dim=\dimen350
+\l__nicematrix_extra_right_margin_dim=\dimen351
+\c__nicematrix_max_l_dim=\dimen352
+\l__nicematrix_position_int=\count371
+\l__nicematrix_multiplicity_int=\count372
+\l__nicematrix_brace_yshift_dim=\dimen353
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count373
+\multirow@dima=\skip63
+\bigstrutjot=\dimen354
+)
+(c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen355
+\pgf@nodesepend=\dimen356
+) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen357
+\pgffor@skip=\dimen358
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
+)) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count374
+\pgfplotmarksize=\dimen359
+)
+\tikz@lastx=\dimen360
+\tikz@lasty=\dimen361
+\tikz@lastxsaved=\dimen362
+\tikz@lastysaved=\dimen363
+\tikz@lastmovetox=\dimen364
+\tikz@lastmovetoy=\dimen365
+\tikzleveldistance=\dimen366
+\tikzsiblingdistance=\dimen367
+\tikz@figbox=\box70
+\tikz@figbox@bg=\box71
+\tikz@tempbox=\box72
+\tikz@tempbox@bg=\box73
+\tikztreelevel=\count375
+\tikznumberofchildren=\count376
+\tikznumberofcurrentchild=\count377
+\tikz@fig@count=\count378
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count379
+\pgfmatrixcurrentcolumn=\count380
+\pgf@matrix@numberofcolumns=\count381
+)
+\tikz@expandcount=\count382
+ (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (./report.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 8.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-\openout1 = `compscilab5.aux'.
+\openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -716,20 +985,20 @@ LaTeX Font Info:    ... okay on input line 41.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \th on input line 41.
+LaTeX Info: Redefining \th on input line 43.
 (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count335
-\scratchdimen=\dimen272
-\scratchbox=\box62
-\nofMPsegments=\count336
-\nofMParguments=\count337
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count338
-\MPscratchDim=\dimen273
-\MPnumerator=\count339
-\makeMPintoPDFobject=\count340
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count383
+\scratchdimen=\dimen368
+\scratchbox=\box74
+\nofMPsegments=\count384
+\nofMParguments=\count385
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count386
+\MPscratchDim=\dimen369
+\MPnumerator=\count387
+\makeMPintoPDFobject=\count388
+\everyMPtoPDFconversion=\toks53
 ) (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -739,20 +1008,23 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.57597pt on input line 41.
-Package hyperref Info: Link coloring OFF on input line 41.
- (./compscilab5.out) (./compscilab5.out)
+Package xypdf Info: Line width: 0.57597pt on input line 43.
+Package hyperref Info: Link coloring OFF on input line 43.
+ (./report.out) (./report.out)
 \@outlinefile=\write5
-\openout5 = `compscilab5.out'.
+\openout5 = `report.out'.
 
+\c__nicematrix_shift_Ldots_last_row_dim=\dimen370
+\c__nicematrix_shift_exterior_Vdots_dim=\dimen371
+\c__nicematrix_innersep_middle_dim=\dimen372
 
 
 [1
@@ -760,81 +1032,98 @@ Package hyperref Info: Link coloring OFF on input line 41.
 {c:/Users/livin/.vscode/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
 
 [2]
-
-[3]
-<pics/5_flowchart_p1.png, id=23, 2424.05624pt x 3462.9375pt>
-File: pics/5_flowchart_p1.png Graphic file (type png)
-<use pics/5_flowchart_p1.png>
-Package pdftex.def Info: pics/5_flowchart_p1.png  used on input line 138.
-(pdftex.def)             Requested size: 357.60068pt x 510.86923pt.
-<pics/5_flowchart_p2.png, id=25, 2354.7975pt x 3098.57625pt>
-File: pics/5_flowchart_p2.png Graphic file (type png)
-<use pics/5_flowchart_p2.png>
-Package pdftex.def Info: pics/5_flowchart_p2.png  used on input line 144.
-(pdftex.def)             Requested size: 465.88486pt x 613.03893pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<pics/5_flowchart_p3.png, id=26, 2384.91pt x 3041.3625pt>
-File: pics/5_flowchart_p3.png Graphic file (type png)
-<use pics/5_flowchart_p3.png>
-Package pdftex.def Info: pics/5_flowchart_p3.png  used on input line 150.
-(pdftex.def)             Requested size: 480.7218pt x 613.03893pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[4 <./pics/5_flowchart_p1.png>]
-
-LaTeX Warning: Text page 5 contains only floats.
-
-
-
-[5 <./pics/5_flowchart_p2.png>]
-
-LaTeX Warning: Text page 6 contains only floats.
-
-
-
-[6 <./pics/5_flowchart_p3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--160
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 162.
-(c:/Users/livin/.vscode/texlive/2024/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+\g__nicematrix_max_cell_width_dim=\dimen373
+\c@iRow=\count389
+\c@jCol=\count390
+\l__nicematrix_cell_box=\box75
+\l__nicematrix_the_array_box=\box76
+\l__nicematrix_left_delim_dim=\dimen374
+\l__nicematrix_right_delim_dim=\dimen375
+\g__nicematrix_ddots_int=\count391
+\g__nicematrix_iddots_int=\count392
+\g__nicematrix_delta_x_one_dim=\dimen376
+\g__nicematrix_delta_y_one_dim=\dimen377
+\g__nicematrix_delta_x_two_dim=\dimen378
+\g__nicematrix_delta_y_two_dim=\dimen379
+\l__nicematrix_initial_i_int=\count393
+\l__nicematrix_initial_j_int=\count394
+\l__nicematrix_final_i_int=\count395
+\l__nicematrix_final_j_int=\count396
+<pics/1f.png, id=23, 927.465pt x 507.8975pt>
+File: pics/1f.png Graphic file (type png)
+<use pics/1f.png>
+Package pdftex.def Info: pics/1f.png  used on input line 135.
+(pdftex.def)             Requested size: 264.46837pt x 144.82979pt.
 
-[7]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[3]
+<pics/2f.png, id=32, 333.245pt x 145.54375pt>
+File: pics/2f.png Graphic file (type png)
+<use pics/2f.png>
+Package pdftex.def Info: pics/2f.png  used on input line 153.
+(pdftex.def)             Requested size: 264.46837pt x 115.5135pt.
+
+
+[4 <./pics/1f.png (PNG copy)> <./pics/2f.png (PNG copy)>]
+<pics/3f.png, id=39, 927.465pt x 889.3225pt>
+File: pics/3f.png Graphic file (type png)
+<use pics/3f.png>
+Package pdftex.def Info: pics/3f.png  used on input line 197.
+(pdftex.def)             Requested size: 264.46837pt x 253.59525pt.
+
+
+[5]
+
+[6 <./pics/3f.png (PNG copy)>]
+<pics/4f.png, id=49, 883.3pt x 371.3875pt>
+File: pics/4f.png Graphic file (type png)
+<use pics/4f.png>
+Package pdftex.def Info: pics/4f.png  used on input line 217.
+(pdftex.def)             Requested size: 370.2541pt x 155.67566pt.
+
+
+[7 <./pics/4f.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
 
 [8]
+Underfull \hbox (badness 10000) in paragraph at lines 226--230
 
-[9]
+ []
 
-[10] (./compscilab5.aux)
+
+
+[9] (./report.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
-Package rerunfilecheck Info: File `compscilab5.out' has not changed.
+Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17994 strings out of 473579
- 283646 string characters out of 5722203
- 819619 words of memory out of 5000000
- 40599 multiletter control sequences out of 15000+600000
- 566418 words of font info for 62 fonts, out of 8000000 for 9000
+ 33746 strings out of 473579
+ 649154 string characters out of 5722203
+ 1208098 words of memory out of 5000000
+ 56149 multiletter control sequences out of 15000+600000
+ 564538 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,7n,107p,3311b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on compscilab5.pdf (10 pages, 624902 bytes).
+ 94i,11n,107p,3306b,739s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Users/livin/.vscode/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on report.pdf (9 pages, 155782 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
