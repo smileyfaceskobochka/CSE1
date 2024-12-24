@@ -105,7 +105,8 @@ int main() {
                 exitBuffer[(index - 3) % 5] == 'i' &&
                 exitBuffer[(index - 2) % 5] == 't') {
                 
-                printf("Вы ввели 'exit'. Выход...\n");
+                printf("Вы ввели 'exit'. Нажмите любую клавишу для выхода.\n");
+                getchar();
                 exit = 0;
             }
         }
@@ -124,7 +125,6 @@ int main() {
             append(list, ch); // Добавление символа
         }
     }
-
     deleteList(list);
     return 0;
 }

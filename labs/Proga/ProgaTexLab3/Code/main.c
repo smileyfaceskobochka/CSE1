@@ -34,7 +34,7 @@ void estimate_error(double a, double b, int n, double *abs_error, double *rel_er
     double numerical = integrate(a, b, n);
     double exact = integrate_exact(a, b);
     *abs_error = fabs(exact - numerical);
-    *rel_error = (exact != 0) ? (*abs_error / fabs(exact)) * 100.0 : 0.0;
+    *rel_error = (exact != 0) ? (*abs_error / exact) * 100.0 : 0.0;
 }
 
 // Общие вспомогательные функции

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1735025793.5225 "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab4/report.tex" "report.pdf" "report" 1735025794.43169 0
+["pdflatex"] 1735050621.15681 "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab4/report.tex" "report.pdf" "report" 1735050622.08874 0
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1728330280 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm" 1728378575 3220 0e417eaf233b160335902e97259a6c77 ""
   "c:/Users/livin/.texlive2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1728388177 3240 c2435f2b5cd66d4930bc29b8df87967e ""
@@ -53,8 +53,8 @@
   "c:/Users/livin/.vscode/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728329949 3326072 dc2bcc73f764b4477a985f73611de3ac ""
   "c:/Users/livin/.vscode/texlive/2024/texmf.cnf" 1728329792 713 e69b156964470283e0530f5060668171 ""
   "c:/Users/livin/Desktop/CompSci/labs/Proga/ProgaTexLab4/report.tex" 1735025792 9618 b48de3098abba27b55fdce900d899104 ""
-  "code/main.c" 1735022228 3367 99a29929d88012de165bb33ea066c808 ""
-  "report.aux" 1735025794 170 6933e3f069d286f4ee9acaf39b0374a8 "pdflatex"
+  "code/main.c" 1735050619 2552 8180cd233246e8ef1bc5cb7789f48339 ""
+  "report.aux" 1735050621 170 6933e3f069d286f4ee9acaf39b0374a8 "pdflatex"
   "report.tex" 1735025792 9618 b48de3098abba27b55fdce900d899104 ""
   (generated)
   "report.aux"
